@@ -1,0 +1,9 @@
+{
+	"version": "1.0",
+	"modules": {
+		"segment_f": {
+			"proto_instances": {
+			}
+		}
+	}
+}

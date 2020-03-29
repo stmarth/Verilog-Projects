@@ -1,0 +1,474 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Wed Mar 18 14:36:43 2020
+# Process ID: 6492
+# Current directory: C:/Users/stefa/iCloudDrive/ASU/Spring 2020/CSE_320/Labs_New/Lab3/CSE320-Marth-Lab3
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent14784 C:\Users\stefa\iCloudDrive\ASU\Spring 2020\CSE_320\Labs_New\Lab3\CSE320-Marth-Lab3\CSE320-Marth-Lab3.xpr
+# Log file: C:/Users/stefa/iCloudDrive/ASU/Spring 2020/CSE_320/Labs_New/Lab3/CSE320-Marth-Lab3/vivado.log
+# Journal file: C:/Users/stefa/iCloudDrive/ASU/Spring 2020/CSE_320/Labs_New/Lab3/CSE320-Marth-Lab3\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/stefa/iCloudDrive/ASU/Spring 2020/CSE_320/Labs_New/Lab3/CSE320-Marth-Lab3/CSE320-Marth-Lab3.xpr}
+INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
+Current project path is 'C:/Users/stefa/iCloudDrive/ASU/Spring 2020/CSE_320/Labs_New/Lab3/CSE320-Marth-Lab3'
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/stefa/iCloudDrive/ASU/Spring 2020/CSE_320/Labs_New/Lab3/CSE320-Marth-Lab3/XUP_LIB'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2019.2/data/ip'.
+WARNING: [IP_Flow 19-3664] IP 'design_1_Edge_Detector_0_1' generated file not found 'c:/Users/stefa/iCloudDrive/ASU/Spring 2020/CSE_320/Labs_New/Lab3/CSE320-Marth-Lab3/CSE320-Marth-Lab3.srcs/sources_1/bd/design_1/ip/design_1_Edge_Detector_0_1/design_1_Edge_Detector_0_1.dcp'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'design_1_Edge_Detector_0_2' generated file not found 'c:/Users/stefa/iCloudDrive/ASU/Spring 2020/CSE_320/Labs_New/Lab3/CSE320-Marth-Lab3/CSE320-Marth-Lab3.srcs/sources_1/bd/design_1/ip/design_1_Edge_Detector_0_2/design_1_Edge_Detector_0_2.dcp'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'design_1_Edge_Detector_0_3' generated file not found 'c:/Users/stefa/iCloudDrive/ASU/Spring 2020/CSE_320/Labs_New/Lab3/CSE320-Marth-Lab3/CSE320-Marth-Lab3.srcs/sources_1/bd/design_1/ip/design_1_Edge_Detector_0_3/design_1_Edge_Detector_0_3.dcp'. Please regenerate to continue.
+WARNING: [Project 1-533] File 'C:/Users/stefa/iCloudDrive/ASU/Spring 2020/CSE_320/Labs_New/Lab3/CSE320-Marth-Lab3/CSE320-Marth-Lab3.srcs/sources_1/bd/design_1/ip/design_1_Edge_Detector_0_3/ip/design_1_LocationFSM_0_0/design_1_LocationFSM_0_0.xci' could not be found in the subdesign 'C:/Users/stefa/iCloudDrive/ASU/Spring 2020/CSE_320/Labs_New/Lab3/CSE320-Marth-Lab3/CSE320-Marth-Lab3.srcs/sources_1/bd/design_1/design_1.bd', but fileset 'design_1_LocationFSM_0_0' still exists. The fileset and corresponding run(s) will be deleted the next time top-level synthesis is run.
+WARNING: [Project 1-533] File 'C:/Users/stefa/iCloudDrive/ASU/Spring 2020/CSE_320/Labs_New/Lab3/CSE320-Marth-Lab3/CSE320-Marth-Lab3.srcs/sources_1/bd/design_1/ip/design_1_Edge_Detector_0_3/ip/design_1_SwordFSM_0_0/design_1_SwordFSM_0_0.xci' could not be found in the subdesign 'C:/Users/stefa/iCloudDrive/ASU/Spring 2020/CSE_320/Labs_New/Lab3/CSE320-Marth-Lab3/CSE320-Marth-Lab3.srcs/sources_1/bd/design_1/design_1.bd', but fileset 'design_1_SwordFSM_0_0' still exists. The fileset and corresponding run(s) will be deleted the next time top-level synthesis is run.
+WARNING: [Project 1-533] File 'C:/Users/stefa/iCloudDrive/ASU/Spring 2020/CSE_320/Labs_New/Lab3/CSE320-Marth-Lab3/CSE320-Marth-Lab3.srcs/sources_1/bd/design_1/ip/design_1_Edge_Detector_0_3/ip/design_1_SwordFSM_1_0/design_1_SwordFSM_1_0.xci' could not be found in the subdesign 'C:/Users/stefa/iCloudDrive/ASU/Spring 2020/CSE_320/Labs_New/Lab3/CSE320-Marth-Lab3/CSE320-Marth-Lab3.srcs/sources_1/bd/design_1/design_1.bd', but fileset 'design_1_SwordFSM_1_0' still exists. The fileset and corresponding run(s) will be deleted the next time top-level synthesis is run.
+WARNING: [Project 1-533] File 'C:/Users/stefa/iCloudDrive/ASU/Spring 2020/CSE_320/Labs_New/Lab3/CSE320-Marth-Lab3/CSE320-Marth-Lab3.srcs/sources_1/bd/design_1/ip/design_1_Edge_Detector_0_3/ip/design_1_LocationFSM_1_0/design_1_LocationFSM_1_0.xci' could not be found in the subdesign 'C:/Users/stefa/iCloudDrive/ASU/Spring 2020/CSE_320/Labs_New/Lab3/CSE320-Marth-Lab3/CSE320-Marth-Lab3.srcs/sources_1/bd/design_1/design_1.bd', but fileset 'design_1_LocationFSM_1_0' still exists. The fileset and corresponding run(s) will be deleted the next time top-level synthesis is run.
+open_project: Time (s): cpu = 00:00:15 ; elapsed = 00:00:08 . Memory (MB): peak = 960.180 ; gain = 268.801
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP design_1_Edge_Detector_0_1, cache-ID = 695268eee973cf40; cache size = 0.336 MB.
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP design_1_Edge_Detector_0_2, cache-ID = 695268eee973cf40; cache size = 0.336 MB.
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP design_1_Edge_Detector_0_3, cache-ID = 695268eee973cf40; cache size = 0.336 MB.
+INFO: [IP_Flow 19-5642] Done with IP cache export for multiple IPs
+[Wed Mar 18 14:37:22 2020] Launched synth_1...
+Run output will be captured here: C:/Users/stefa/iCloudDrive/ASU/Spring 2020/CSE_320/Labs_New/Lab3/CSE320-Marth-Lab3/CSE320-Marth-Lab3.runs/synth_1/runme.log
+launch_runs: Time (s): cpu = 00:00:12 ; elapsed = 00:00:07 . Memory (MB): peak = 1763.211 ; gain = 12.531
+generate_target all [get_files  {{C:/Users/stefa/iCloudDrive/ASU/Spring 2020/CSE_320/Labs_New/Lab3/CSE320-Marth-Lab3/CSE320-Marth-Lab3.srcs/sources_1/bd/design_1/design_1.bd}}]
+INFO: [BD 41-434] Could not find an IP with XCI file by name: design_1_SwordFSM_1_0 
+INFO: [BD 41-434] Could not find an IP with XCI file by name: design_1_LocationFSM_1_0 
+INFO: [BD 41-433] 
+Design successfully migrated to use XCI files...
+CRITICAL WARNING: [BD 41-1367] The port name 'signal' of cell '/Edge_Detector_0' is a reserved keyword in a Hardware Description Language. Please consider renaming the port.
+CRITICAL WARNING: [BD 41-1367] The port name 'signal' of cell '/Edge_Detector_1' is a reserved keyword in a Hardware Description Language. Please consider renaming the port.
+CRITICAL WARNING: [BD 41-1367] The port name 'signal' of cell '/Edge_Detector_2' is a reserved keyword in a Hardware Description Language. Please consider renaming the port.
+CRITICAL WARNING: [BD 41-1367] The port name 'signal' of cell '/Edge_Detector_3' is a reserved keyword in a Hardware Description Language. Please consider renaming the port.
+Wrote  : <C:\Users\stefa\iCloudDrive\ASU\Spring 2020\CSE_320\Labs_New\Lab3\CSE320-Marth-Lab3\CSE320-Marth-Lab3.srcs\sources_1\bd\design_1\design_1.bd> 
+VHDL Output written to : C:/Users/stefa/iCloudDrive/ASU/Spring 2020/CSE_320/Labs_New/Lab3/CSE320-Marth-Lab3/CSE320-Marth-Lab3.srcs/sources_1/bd/design_1/synth/design_1.v
+VHDL Output written to : C:/Users/stefa/iCloudDrive/ASU/Spring 2020/CSE_320/Labs_New/Lab3/CSE320-Marth-Lab3/CSE320-Marth-Lab3.srcs/sources_1/bd/design_1/sim/design_1.v
+VHDL Output written to : C:/Users/stefa/iCloudDrive/ASU/Spring 2020/CSE_320/Labs_New/Lab3/CSE320-Marth-Lab3/CSE320-Marth-Lab3.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.v
+INFO: [BD 41-1029] Generation completed for the IP Integrator block Edge_Detector_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block Edge_Detector_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block Edge_Detector_2 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block Edge_Detector_3 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block SwordFSM_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block LocationFSM_1 .
+Exporting to file C:/Users/stefa/iCloudDrive/ASU/Spring 2020/CSE_320/Labs_New/Lab3/CSE320-Marth-Lab3/CSE320-Marth-Lab3.srcs/sources_1/bd/design_1/hw_handoff/design_1.hwh
+Generated Block Design Tcl file C:/Users/stefa/iCloudDrive/ASU/Spring 2020/CSE_320/Labs_New/Lab3/CSE320-Marth-Lab3/CSE320-Marth-Lab3.srcs/sources_1/bd/design_1/hw_handoff/design_1_bd.tcl
+Generated Hardware Definition File C:/Users/stefa/iCloudDrive/ASU/Spring 2020/CSE_320/Labs_New/Lab3/CSE320-Marth-Lab3/CSE320-Marth-Lab3.srcs/sources_1/bd/design_1/synth/design_1.hwdef
+generate_target: Time (s): cpu = 00:00:06 ; elapsed = 00:00:05 . Memory (MB): peak = 1763.211 ; gain = 0.000
+catch { config_ip_cache -export [get_ips -all design_1_Edge_Detector_0_1] }
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP design_1_Edge_Detector_0_1, cache-ID = 695268eee973cf40; cache size = 0.336 MB.
+catch { config_ip_cache -export [get_ips -all design_1_Edge_Detector_0_2] }
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP design_1_Edge_Detector_0_2, cache-ID = 695268eee973cf40; cache size = 0.336 MB.
+catch { config_ip_cache -export [get_ips -all design_1_Edge_Detector_0_3] }
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP design_1_Edge_Detector_0_3, cache-ID = 695268eee973cf40; cache size = 0.336 MB.
+catch { config_ip_cache -export [get_ips -all design_1_SwordFSM_1_0] }
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP design_1_SwordFSM_1_0, cache-ID = 7d2407770ab90152; cache size = 0.336 MB.
+catch { config_ip_cache -export [get_ips -all design_1_LocationFSM_1_0] }
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP design_1_LocationFSM_1_0, cache-ID = a393866de408da56; cache size = 0.336 MB.
+export_ip_user_files -of_objects [get_files {{C:/Users/stefa/iCloudDrive/ASU/Spring 2020/CSE_320/Labs_New/Lab3/CSE320-Marth-Lab3/CSE320-Marth-Lab3.srcs/sources_1/bd/design_1/design_1.bd}}] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] {{C:/Users/stefa/iCloudDrive/ASU/Spring 2020/CSE_320/Labs_New/Lab3/CSE320-Marth-Lab3/CSE320-Marth-Lab3.srcs/sources_1/bd/design_1/design_1.bd}}]
+export_simulation -of_objects [get_files {{C:/Users/stefa/iCloudDrive/ASU/Spring 2020/CSE_320/Labs_New/Lab3/CSE320-Marth-Lab3/CSE320-Marth-Lab3.srcs/sources_1/bd/design_1/design_1.bd}}] -directory {C:/Users/stefa/iCloudDrive/ASU/Spring 2020/CSE_320/Labs_New/Lab3/CSE320-Marth-Lab3/CSE320-Marth-Lab3.ip_user_files/sim_scripts} -ip_user_files_dir {C:/Users/stefa/iCloudDrive/ASU/Spring 2020/CSE_320/Labs_New/Lab3/CSE320-Marth-Lab3/CSE320-Marth-Lab3.ip_user_files} -ipstatic_source_dir {C:/Users/stefa/iCloudDrive/ASU/Spring 2020/CSE_320/Labs_New/Lab3/CSE320-Marth-Lab3/CSE320-Marth-Lab3.ip_user_files/ipstatic} -lib_map_path [list {modelsim=C:/Users/stefa/iCloudDrive/ASU/Spring 2020/CSE_320/Labs_New/Lab3/CSE320-Marth-Lab3/CSE320-Marth-Lab3.cache/compile_simlib/modelsim} {questa=C:/Users/stefa/iCloudDrive/ASU/Spring 2020/CSE_320/Labs_New/Lab3/CSE320-Marth-Lab3/CSE320-Marth-Lab3.cache/compile_simlib/questa} {riviera=C:/Users/stefa/iCloudDrive/ASU/Spring 2020/CSE_320/Labs_New/Lab3/CSE320-Marth-Lab3/CSE320-Marth-Lab3.cache/compile_simlib/riviera} {activehdl=C:/Users/stefa/iCloudDrive/ASU/Spring 2020/CSE_320/Labs_New/Lab3/CSE320-Marth-Lab3/CSE320-Marth-Lab3.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+[Wed Mar 18 14:38:50 2020] Launched synth_1...
+Run output will be captured here: C:/Users/stefa/iCloudDrive/ASU/Spring 2020/CSE_320/Labs_New/Lab3/CSE320-Marth-Lab3/CSE320-Marth-Lab3.runs/synth_1/runme.log
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/stefa/iCloudDrive/ASU/Spring 2020/CSE_320/Labs_New/Lab3/CSE320-Marth-Lab3/CSE320-Marth-Lab3.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'C:/Xilinx/Vivado/2019.2/data/xsim/xsim.ini' copied to run dir:'C:/Users/stefa/iCloudDrive/ASU/Spring 2020/CSE_320/Labs_New/Lab3/CSE320-Marth-Lab3/CSE320-Marth-Lab3.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'final_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/stefa/iCloudDrive/ASU/Spring 2020/CSE_320/Labs_New/Lab3/CSE320-Marth-Lab3/CSE320-Marth-Lab3.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj final_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/stefa/iCloudDrive/ASU/Spring 2020/CSE_320/Labs_New/Lab3/CSE320-Marth-Lab3/CSE320-Marth-Lab3.ip_user_files/bd/design_1/ipshared/e1c7/src/Edge_Detector.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Edge_Detector
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/stefa/iCloudDrive/ASU/Spring 2020/CSE_320/Labs_New/Lab3/CSE320-Marth-Lab3/CSE320-Marth-Lab3.ip_user_files/bd/design_1/ip/design_1_Edge_Detector_0_0/sim/design_1_Edge_Detector_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1_Edge_Detector_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/stefa/iCloudDrive/ASU/Spring 2020/CSE_320/Labs_New/Lab3/CSE320-Marth-Lab3/CSE320-Marth-Lab3.ip_user_files/bd/design_1/ip/design_1_Edge_Detector_0_1/sim/design_1_Edge_Detector_0_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1_Edge_Detector_0_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/stefa/iCloudDrive/ASU/Spring 2020/CSE_320/Labs_New/Lab3/CSE320-Marth-Lab3/CSE320-Marth-Lab3.ip_user_files/bd/design_1/ip/design_1_Edge_Detector_0_2/sim/design_1_Edge_Detector_0_2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1_Edge_Detector_0_2
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/stefa/iCloudDrive/ASU/Spring 2020/CSE_320/Labs_New/Lab3/CSE320-Marth-Lab3/CSE320-Marth-Lab3.ip_user_files/bd/design_1/ip/design_1_Edge_Detector_0_3/sim/design_1_Edge_Detector_0_3.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1_Edge_Detector_0_3
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/stefa/iCloudDrive/ASU/Spring 2020/CSE_320/Labs_New/Lab3/CSE320-Marth-Lab3/CSE320-Marth-Lab3.ip_user_files/bd/design_1/sim/design_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/stefa/iCloudDrive/ASU/Spring 2020/CSE_320/Labs_New/Lab3/CSE320-Marth-Lab3/CSE320-Marth-Lab3.ip_user_files/bd/design_1/ip/design_1_SwordFSM_1_0_1/ipshared/81d5/src/xup_dff_set.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module xup_dff_set
+WARNING: [VRFC 10-3676] redeclaration of ansi port 'q' is not allowed [C:/Users/stefa/iCloudDrive/ASU/Spring 2020/CSE_320/Labs_New/Lab3/CSE320-Marth-Lab3/CSE320-Marth-Lab3.ip_user_files/bd/design_1/ip/design_1_SwordFSM_1_0_1/ipshared/81d5/src/xup_dff_set.v:11]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/stefa/iCloudDrive/ASU/Spring 2020/CSE_320/Labs_New/Lab3/CSE320-Marth-Lab3/CSE320-Marth-Lab3.ip_user_files/bd/design_1/ip/design_1_SwordFSM_1_0_1/src/SwordFSM_S0_0/sim/SwordFSM_S0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SwordFSM_S0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/stefa/iCloudDrive/ASU/Spring 2020/CSE_320/Labs_New/Lab3/CSE320-Marth-Lab3/CSE320-Marth-Lab3.ip_user_files/bd/design_1/ip/design_1_SwordFSM_1_0_1/ipshared/727d/src/xup_dff_reset.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module xup_dff_reset
+WARNING: [VRFC 10-3676] redeclaration of ansi port 'q' is not allowed [C:/Users/stefa/iCloudDrive/ASU/Spring 2020/CSE_320/Labs_New/Lab3/CSE320-Marth-Lab3/CSE320-Marth-Lab3.ip_user_files/bd/design_1/ip/design_1_SwordFSM_1_0_1/ipshared/727d/src/xup_dff_reset.v:11]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/stefa/iCloudDrive/ASU/Spring 2020/CSE_320/Labs_New/Lab3/CSE320-Marth-Lab3/CSE320-Marth-Lab3.ip_user_files/bd/design_1/ip/design_1_SwordFSM_1_0_1/src/SwordFSM_S1_0/sim/SwordFSM_S1_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SwordFSM_S1_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/stefa/iCloudDrive/ASU/Spring 2020/CSE_320/Labs_New/Lab3/CSE320-Marth-Lab3/CSE320-Marth-Lab3.ip_user_files/bd/design_1/ip/design_1_SwordFSM_1_0_1/ipshared/778c/xup_and2.srcs/sources_1/new/xup_and2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module xup_and2
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/stefa/iCloudDrive/ASU/Spring 2020/CSE_320/Labs_New/Lab3/CSE320-Marth-Lab3/CSE320-Marth-Lab3.ip_user_files/bd/design_1/ip/design_1_SwordFSM_1_0_1/src/SwordFSM_xup_and2_0_0/sim/SwordFSM_xup_and2_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SwordFSM_xup_and2_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/stefa/iCloudDrive/ASU/Spring 2020/CSE_320/Labs_New/Lab3/CSE320-Marth-Lab3/CSE320-Marth-Lab3.ip_user_files/bd/design_1/ip/design_1_SwordFSM_1_0_1/src/SwordFSM_xup_and2_1_0/sim/SwordFSM_xup_and2_1_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SwordFSM_xup_and2_1_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/stefa/iCloudDrive/ASU/Spring 2020/CSE_320/Labs_New/Lab3/CSE320-Marth-Lab3/CSE320-Marth-Lab3.ip_user_files/bd/design_1/ip/design_1_SwordFSM_1_0_1/src/SwordFSM_xup_and2_2_0/sim/SwordFSM_xup_and2_2_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SwordFSM_xup_and2_2_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/stefa/iCloudDrive/ASU/Spring 2020/CSE_320/Labs_New/Lab3/CSE320-Marth-Lab3/CSE320-Marth-Lab3.ip_user_files/bd/design_1/ip/design_1_SwordFSM_1_0_1/ipshared/e3e7/xup_inv.srcs/sources_1/new/xup_inv.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module xup_inv
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/stefa/iCloudDrive/ASU/Spring 2020/CSE_320/Labs_New/Lab3/CSE320-Marth-Lab3/CSE320-Marth-Lab3.ip_user_files/bd/design_1/ip/design_1_SwordFSM_1_0_1/src/SwordFSM_xup_inv_0_0/sim/SwordFSM_xup_inv_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SwordFSM_xup_inv_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/stefa/iCloudDrive/ASU/Spring 2020/CSE_320/Labs_New/Lab3/CSE320-Marth-Lab3/CSE320-Marth-Lab3.ip_user_files/bd/design_1/ip/design_1_SwordFSM_1_0_1/src/SwordFSM_xup_inv_1_0/sim/SwordFSM_xup_inv_1_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SwordFSM_xup_inv_1_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/stefa/iCloudDrive/ASU/Spring 2020/CSE_320/Labs_New/Lab3/CSE320-Marth-Lab3/CSE320-Marth-Lab3.ip_user_files/bd/design_1/ip/design_1_SwordFSM_1_0_1/ipshared/1ec9/xup_or2.srcs/sources_1/new/xup_or2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module xup_or2
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/stefa/iCloudDrive/ASU/Spring 2020/CSE_320/Labs_New/Lab3/CSE320-Marth-Lab3/CSE320-Marth-Lab3.ip_user_files/bd/design_1/ip/design_1_SwordFSM_1_0_1/src/SwordFSM_xup_or2_0_0/sim/SwordFSM_xup_or2_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SwordFSM_xup_or2_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/stefa/iCloudDrive/ASU/Spring 2020/CSE_320/Labs_New/Lab3/CSE320-Marth-Lab3/CSE320-Marth-Lab3.ip_user_files/bd/design_1/ipshared/a170/sim/SwordFSM.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SwordFSM
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/stefa/iCloudDrive/ASU/Spring 2020/CSE_320/Labs_New/Lab3/CSE320-Marth-Lab3/CSE320-Marth-Lab3.ip_user_files/bd/design_1/ip/design_1_SwordFSM_1_0_1/sim/design_1_SwordFSM_1_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1_SwordFSM_1_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/stefa/iCloudDrive/ASU/Spring 2020/CSE_320/Labs_New/Lab3/CSE320-Marth-Lab3/CSE320-Marth-Lab3.ip_user_files/bd/design_1/ip/design_1_LocationFSM_1_0_1/src/LocationFSM_xup_dff_set_0_0/sim/LocationFSM_xup_dff_set_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module LocationFSM_xup_dff_set_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/stefa/iCloudDrive/ASU/Spring 2020/CSE_320/Labs_New/Lab3/CSE320-Marth-Lab3/CSE320-Marth-Lab3.ip_user_files/bd/design_1/ip/design_1_LocationFSM_1_0_1/src/LocationFSM_xup_dff_reset_0_0/sim/LocationFSM_xup_dff_reset_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module LocationFSM_xup_dff_reset_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/stefa/iCloudDrive/ASU/Spring 2020/CSE_320/Labs_New/Lab3/CSE320-Marth-Lab3/CSE320-Marth-Lab3.ip_user_files/bd/design_1/ip/design_1_LocationFSM_1_0_1/src/LocationFSM_Q1_0/sim/LocationFSM_Q1_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module LocationFSM_Q1_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/stefa/iCloudDrive/ASU/Spring 2020/CSE_320/Labs_New/Lab3/CSE320-Marth-Lab3/CSE320-Marth-Lab3.ip_user_files/bd/design_1/ip/design_1_LocationFSM_1_0_1/src/LocationFSM_Q1_1/sim/LocationFSM_Q1_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module LocationFSM_Q1_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/stefa/iCloudDrive/ASU/Spring 2020/CSE_320/Labs_New/Lab3/CSE320-Marth-Lab3/CSE320-Marth-Lab3.ip_user_files/bd/design_1/ip/design_1_LocationFSM_1_0_1/src/LocationFSM_Q1_2/sim/LocationFSM_Q1_2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module LocationFSM_Q1_2
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/stefa/iCloudDrive/ASU/Spring 2020/CSE_320/Labs_New/Lab3/CSE320-Marth-Lab3/CSE320-Marth-Lab3.ip_user_files/bd/design_1/ip/design_1_LocationFSM_1_0_1/src/LocationFSM_Q1_3/sim/LocationFSM_Q1_3.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module LocationFSM_Q1_3
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/stefa/iCloudDrive/ASU/Spring 2020/CSE_320/Labs_New/Lab3/CSE320-Marth-Lab3/CSE320-Marth-Lab3.ip_user_files/bd/design_1/ip/design_1_LocationFSM_1_0_1/src/LocationFSM_Q1_4/sim/LocationFSM_Q1_4.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module LocationFSM_Q1_4
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/stefa/iCloudDrive/ASU/Spring 2020/CSE_320/Labs_New/Lab3/CSE320-Marth-Lab3/CSE320-Marth-Lab3.ip_user_files/bd/design_1/ip/design_1_LocationFSM_1_0_1/src/LocationFSM_xup_inv_0_0/sim/LocationFSM_xup_inv_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module LocationFSM_xup_inv_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/stefa/iCloudDrive/ASU/Spring 2020/CSE_320/Labs_New/Lab3/CSE320-Marth-Lab3/CSE320-Marth-Lab3.ip_user_files/bd/design_1/ip/design_1_LocationFSM_1_0_1/src/LocationFSM_xup_inv_0_1/sim/LocationFSM_xup_inv_0_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module LocationFSM_xup_inv_0_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/stefa/iCloudDrive/ASU/Spring 2020/CSE_320/Labs_New/Lab3/CSE320-Marth-Lab3/CSE320-Marth-Lab3.ip_user_files/bd/design_1/ip/design_1_LocationFSM_1_0_1/src/LocationFSM_xup_inv_0_2/sim/LocationFSM_xup_inv_0_2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module LocationFSM_xup_inv_0_2
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/stefa/iCloudDrive/ASU/Spring 2020/CSE_320/Labs_New/Lab3/CSE320-Marth-Lab3/CSE320-Marth-Lab3.ip_user_files/bd/design_1/ip/design_1_LocationFSM_1_0_1/src/LocationFSM_xup_inv_0_3/sim/LocationFSM_xup_inv_0_3.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module LocationFSM_xup_inv_0_3
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/stefa/iCloudDrive/ASU/Spring 2020/CSE_320/Labs_New/Lab3/CSE320-Marth-Lab3/CSE320-Marth-Lab3.ip_user_files/bd/design_1/ip/design_1_LocationFSM_1_0_1/src/LocationFSM_xup_inv_0_4/sim/LocationFSM_xup_inv_0_4.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module LocationFSM_xup_inv_0_4
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/stefa/iCloudDrive/ASU/Spring 2020/CSE_320/Labs_New/Lab3/CSE320-Marth-Lab3/CSE320-Marth-Lab3.ip_user_files/bd/design_1/ip/design_1_LocationFSM_1_0_1/src/LocationFSM_xup_and2_0_0/sim/LocationFSM_xup_and2_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module LocationFSM_xup_and2_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/stefa/iCloudDrive/ASU/Spring 2020/CSE_320/Labs_New/Lab3/CSE320-Marth-Lab3/CSE320-Marth-Lab3.ip_user_files/bd/design_1/ip/design_1_LocationFSM_1_0_1/src/LocationFSM_xup_or2_0_0/sim/LocationFSM_xup_or2_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module LocationFSM_xup_or2_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/stefa/iCloudDrive/ASU/Spring 2020/CSE_320/Labs_New/Lab3/CSE320-Marth-Lab3/CSE320-Marth-Lab3.ip_user_files/bd/design_1/ip/design_1_LocationFSM_1_0_1/src/LocationFSM_xup_and2_0_1/sim/LocationFSM_xup_and2_0_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module LocationFSM_xup_and2_0_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/stefa/iCloudDrive/ASU/Spring 2020/CSE_320/Labs_New/Lab3/CSE320-Marth-Lab3/CSE320-Marth-Lab3.ip_user_files/bd/design_1/ip/design_1_LocationFSM_1_0_1/src/LocationFSM_xup_and2_2_0/sim/LocationFSM_xup_and2_2_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module LocationFSM_xup_and2_2_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/stefa/iCloudDrive/ASU/Spring 2020/CSE_320/Labs_New/Lab3/CSE320-Marth-Lab3/CSE320-Marth-Lab3.ip_user_files/bd/design_1/ip/design_1_LocationFSM_1_0_1/src/LocationFSM_xup_and2_2_1/sim/LocationFSM_xup_and2_2_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module LocationFSM_xup_and2_2_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/stefa/iCloudDrive/ASU/Spring 2020/CSE_320/Labs_New/Lab3/CSE320-Marth-Lab3/CSE320-Marth-Lab3.ip_user_files/bd/design_1/ip/design_1_LocationFSM_1_0_1/ipshared/ded9/xup_or3.srcs/sources_1/new/xup_or3.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module xup_or3
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/stefa/iCloudDrive/ASU/Spring 2020/CSE_320/Labs_New/Lab3/CSE320-Marth-Lab3/CSE320-Marth-Lab3.ip_user_files/bd/design_1/ip/design_1_LocationFSM_1_0_1/src/LocationFSM_xup_or3_0_0/sim/LocationFSM_xup_or3_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module LocationFSM_xup_or3_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/stefa/iCloudDrive/ASU/Spring 2020/CSE_320/Labs_New/Lab3/CSE320-Marth-Lab3/CSE320-Marth-Lab3.ip_user_files/bd/design_1/ip/design_1_LocationFSM_1_0_1/ipshared/b79c/xup_and3.srcs/sources_1/new/xup_and3.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module xup_and3
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/stefa/iCloudDrive/ASU/Spring 2020/CSE_320/Labs_New/Lab3/CSE320-Marth-Lab3/CSE320-Marth-Lab3.ip_user_files/bd/design_1/ip/design_1_LocationFSM_1_0_1/src/LocationFSM_xup_and3_0_0/sim/LocationFSM_xup_and3_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module LocationFSM_xup_and3_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/stefa/iCloudDrive/ASU/Spring 2020/CSE_320/Labs_New/Lab3/CSE320-Marth-Lab3/CSE320-Marth-Lab3.ip_user_files/bd/design_1/ip/design_1_LocationFSM_1_0_1/src/LocationFSM_xup_and2_4_0/sim/LocationFSM_xup_and2_4_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module LocationFSM_xup_and2_4_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/stefa/iCloudDrive/ASU/Spring 2020/CSE_320/Labs_New/Lab3/CSE320-Marth-Lab3/CSE320-Marth-Lab3.ip_user_files/bd/design_1/ip/design_1_LocationFSM_1_0_1/ipshared/77ea/xup_and4.srcs/sources_1/new/xup_and4.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module xup_and4
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/stefa/iCloudDrive/ASU/Spring 2020/CSE_320/Labs_New/Lab3/CSE320-Marth-Lab3/CSE320-Marth-Lab3.ip_user_files/bd/design_1/ip/design_1_LocationFSM_1_0_1/src/LocationFSM_xup_and4_0_0/sim/LocationFSM_xup_and4_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module LocationFSM_xup_and4_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/stefa/iCloudDrive/ASU/Spring 2020/CSE_320/Labs_New/Lab3/CSE320-Marth-Lab3/CSE320-Marth-Lab3.ip_user_files/bd/design_1/ip/design_1_LocationFSM_1_0_1/src/LocationFSM_xup_and2_5_0/sim/LocationFSM_xup_and2_5_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module LocationFSM_xup_and2_5_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/stefa/iCloudDrive/ASU/Spring 2020/CSE_320/Labs_New/Lab3/CSE320-Marth-Lab3/CSE320-Marth-Lab3.ip_user_files/bd/design_1/ip/design_1_LocationFSM_1_0_1/src/LocationFSM_xup_or3_1_0/sim/LocationFSM_xup_or3_1_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module LocationFSM_xup_or3_1_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/stefa/iCloudDrive/ASU/Spring 2020/CSE_320/Labs_New/Lab3/CSE320-Marth-Lab3/CSE320-Marth-Lab3.ip_user_files/bd/design_1/ip/design_1_LocationFSM_1_0_1/src/LocationFSM_xup_and2_6_0/sim/LocationFSM_xup_and2_6_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module LocationFSM_xup_and2_6_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/stefa/iCloudDrive/ASU/Spring 2020/CSE_320/Labs_New/Lab3/CSE320-Marth-Lab3/CSE320-Marth-Lab3.ip_user_files/bd/design_1/ip/design_1_LocationFSM_1_0_1/src/LocationFSM_xup_and2_6_1/sim/LocationFSM_xup_and2_6_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module LocationFSM_xup_and2_6_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/stefa/iCloudDrive/ASU/Spring 2020/CSE_320/Labs_New/Lab3/CSE320-Marth-Lab3/CSE320-Marth-Lab3.ip_user_files/bd/design_1/ip/design_1_LocationFSM_1_0_1/src/LocationFSM_xup_or2_1_0/sim/LocationFSM_xup_or2_1_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module LocationFSM_xup_or2_1_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/stefa/iCloudDrive/ASU/Spring 2020/CSE_320/Labs_New/Lab3/CSE320-Marth-Lab3/CSE320-Marth-Lab3.ip_user_files/bd/design_1/ip/design_1_LocationFSM_1_0_1/src/LocationFSM_xup_and2_8_0/sim/LocationFSM_xup_and2_8_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module LocationFSM_xup_and2_8_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/stefa/iCloudDrive/ASU/Spring 2020/CSE_320/Labs_New/Lab3/CSE320-Marth-Lab3/CSE320-Marth-Lab3.ip_user_files/bd/design_1/ip/design_1_LocationFSM_1_0_1/src/LocationFSM_xup_and2_8_1/sim/LocationFSM_xup_and2_8_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module LocationFSM_xup_and2_8_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/stefa/iCloudDrive/ASU/Spring 2020/CSE_320/Labs_New/Lab3/CSE320-Marth-Lab3/CSE320-Marth-Lab3.ip_user_files/bd/design_1/ip/design_1_LocationFSM_1_0_1/src/LocationFSM_xup_or2_2_0/sim/LocationFSM_xup_or2_2_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module LocationFSM_xup_or2_2_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/stefa/iCloudDrive/ASU/Spring 2020/CSE_320/Labs_New/Lab3/CSE320-Marth-Lab3/CSE320-Marth-Lab3.ip_user_files/bd/design_1/ip/design_1_LocationFSM_1_0_1/src/LocationFSM_xup_and2_9_0/sim/LocationFSM_xup_and2_9_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module LocationFSM_xup_and2_9_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/stefa/iCloudDrive/ASU/Spring 2020/CSE_320/Labs_New/Lab3/CSE320-Marth-Lab3/CSE320-Marth-Lab3.ip_user_files/bd/design_1/ip/design_1_LocationFSM_1_0_1/src/LocationFSM_xup_or2_2_1/sim/LocationFSM_xup_or2_2_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module LocationFSM_xup_or2_2_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/stefa/iCloudDrive/ASU/Spring 2020/CSE_320/Labs_New/Lab3/CSE320-Marth-Lab3/CSE320-Marth-Lab3.ip_user_files/bd/design_1/ipshared/ba5c/sim/LocationFSM.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module LocationFSM
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/stefa/iCloudDrive/ASU/Spring 2020/CSE_320/Labs_New/Lab3/CSE320-Marth-Lab3/CSE320-Marth-Lab3.ip_user_files/bd/design_1/ip/design_1_LocationFSM_1_0_1/sim/design_1_LocationFSM_1_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1_LocationFSM_1_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/stefa/iCloudDrive/ASU/Spring 2020/CSE_320/Labs_New/Lab3/CSE320-Marth-Lab3/CSE320-Marth-Lab3.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1_wrapper
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/stefa/iCloudDrive/ASU/Spring 2020/CSE_320/Labs_New/Lab3/CSE320-Marth-Lab3/CSE320-Marth-Lab3.srcs/sim_1/imports/CSE320-Marth-Lab3/final_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module final_tb
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:09 . Memory (MB): peak = 1763.211 ; gain = 0.000
+INFO: [USF-XSim-69] 'compile' step finished in '9' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/stefa/iCloudDrive/ASU/Spring 2020/CSE_320/Labs_New/Lab3/CSE320-Marth-Lab3/CSE320-Marth-Lab3.sim/sim_1/behav/xsim'
+"xelab -wto 514ad9c6146343e0aad0807c92b7c100 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot final_tb_behav xil_defaultlib.final_tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2019.2
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2019.2/bin/unwrapped/win64.o/xelab.exe -wto 514ad9c6146343e0aad0807c92b7c100 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot final_tb_behav xil_defaultlib.final_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.Edge_Detector
+Compiling module xil_defaultlib.design_1_Edge_Detector_0_0
+Compiling module xil_defaultlib.design_1_Edge_Detector_0_1
+Compiling module xil_defaultlib.design_1_Edge_Detector_0_2
+Compiling module xil_defaultlib.design_1_Edge_Detector_0_3
+Compiling module xil_defaultlib.xup_inv(DELAY=0)
+Compiling module xil_defaultlib.LocationFSM_xup_inv_0_2
+Compiling module xil_defaultlib.LocationFSM_xup_inv_0_0
+Compiling module xil_defaultlib.xup_dff_set
+Compiling module xil_defaultlib.LocationFSM_xup_dff_set_0_0
+Compiling module xil_defaultlib.xup_dff_reset
+Compiling module xil_defaultlib.LocationFSM_xup_dff_reset_0_0
+Compiling module xil_defaultlib.LocationFSM_Q1_0
+Compiling module xil_defaultlib.LocationFSM_Q1_1
+Compiling module xil_defaultlib.LocationFSM_Q1_2
+Compiling module xil_defaultlib.LocationFSM_Q1_3
+Compiling module xil_defaultlib.LocationFSM_Q1_4
+Compiling module xil_defaultlib.LocationFSM_xup_inv_0_1
+Compiling module xil_defaultlib.LocationFSM_xup_inv_0_4
+Compiling module xil_defaultlib.LocationFSM_xup_inv_0_3
+Compiling module xil_defaultlib.xup_and2(DELAY=0)
+Compiling module xil_defaultlib.LocationFSM_xup_and2_0_0
+Compiling module xil_defaultlib.LocationFSM_xup_and2_0_1
+Compiling module xil_defaultlib.LocationFSM_xup_and2_9_0
+Compiling module xil_defaultlib.LocationFSM_xup_and2_2_0
+Compiling module xil_defaultlib.LocationFSM_xup_and2_2_1
+Compiling module xil_defaultlib.LocationFSM_xup_and2_4_0
+Compiling module xil_defaultlib.LocationFSM_xup_and2_5_0
+Compiling module xil_defaultlib.LocationFSM_xup_and2_6_0
+Compiling module xil_defaultlib.LocationFSM_xup_and2_6_1
+Compiling module xil_defaultlib.LocationFSM_xup_and2_8_0
+Compiling module xil_defaultlib.LocationFSM_xup_and2_8_1
+Compiling module xil_defaultlib.xup_and3(DELAY=0)
+Compiling module xil_defaultlib.LocationFSM_xup_and3_0_0
+Compiling module xil_defaultlib.xup_and4
+Compiling module xil_defaultlib.LocationFSM_xup_and4_0_0
+Compiling module xil_defaultlib.xup_or2(DELAY=0)
+Compiling module xil_defaultlib.LocationFSM_xup_or2_0_0
+Compiling module xil_defaultlib.LocationFSM_xup_or2_1_0
+Compiling module xil_defaultlib.LocationFSM_xup_or2_2_0
+Compiling module xil_defaultlib.LocationFSM_xup_or2_2_1
+Compiling module xil_defaultlib.xup_or3(DELAY=0)
+Compiling module xil_defaultlib.LocationFSM_xup_or3_0_0
+Compiling module xil_defaultlib.LocationFSM_xup_or3_1_0
+Compiling module xil_defaultlib.LocationFSM
+Compiling module xil_defaultlib.design_1_LocationFSM_1_0
+Compiling module xil_defaultlib.SwordFSM_S0_0
+Compiling module xil_defaultlib.SwordFSM_S1_0
+Compiling module xil_defaultlib.SwordFSM_xup_and2_0_0
+Compiling module xil_defaultlib.SwordFSM_xup_and2_1_0
+Compiling module xil_defaultlib.SwordFSM_xup_and2_2_0
+Compiling module xil_defaultlib.SwordFSM_xup_inv_0_0
+Compiling module xil_defaultlib.SwordFSM_xup_inv_1_0
+Compiling module xil_defaultlib.SwordFSM_xup_or2_0_0
+Compiling module xil_defaultlib.SwordFSM
+Compiling module xil_defaultlib.design_1_SwordFSM_1_0
+Compiling module xil_defaultlib.design_1
+Compiling module xil_defaultlib.design_1_wrapper
+Compiling module xil_defaultlib.final_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot final_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/stefa/iCloudDrive/ASU/Spring 2020/CSE_320/Labs_New/Lab3/CSE320-Marth-Lab3/CSE320-Marth-Lab3.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "final_tb_behav -key {Behavioral:sim_1:Functional:final_tb} -tclbatch {final_tb.tcl} -protoinst "protoinst_files/design_1.protoinst" -protoinst "protoinst_files/SwordFSM.protoinst" -protoinst "protoinst_files/LocationFSM.protoinst" -protoinst "protoinst_files/LocationFSM.protoinst" -protoinst "protoinst_files/SwordFSM.protoinst" -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2019.2
+INFO: [Wavedata 42-565] Reading protoinst file protoinst_files/design_1.protoinst
+INFO: [Wavedata 42-565] Reading protoinst file protoinst_files/SwordFSM.protoinst
+INFO: [Wavedata 42-565] Reading protoinst file protoinst_files/LocationFSM.protoinst
+INFO: [Wavedata 42-565] Reading protoinst file protoinst_files/LocationFSM.protoinst
+INFO: [Wavedata 42-565] Reading protoinst file protoinst_files/SwordFSM.protoinst
+Time resolution is 1 ps
+source final_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 100ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'final_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 100ns
+launch_simulation: Time (s): cpu = 00:00:06 ; elapsed = 00:00:15 . Memory (MB): peak = 1763.211 ; gain = 0.000
+run all
+$finish called at time : 1255 ns : File "C:/Users/stefa/iCloudDrive/ASU/Spring 2020/CSE_320/Labs_New/Lab3/CSE320-Marth-Lab3/CSE320-Marth-Lab3.srcs/sim_1/imports/CSE320-Marth-Lab3/final_tb.v" Line 182
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+open_run synth_1 -name synth_1
+Design is defaulting to impl run constrset: constrs_1
+Design is defaulting to synth run part: xc7a100tcsg324-1
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/stefa/iCloudDrive/ASU/Spring 2020/CSE_320/Labs_New/Lab3/CSE320-Marth-Lab3/CSE320-Marth-Lab3.srcs/sources_1/bd/design_1/ip/design_1_Edge_Detector_0_0/design_1_Edge_Detector_0_0.dcp' for cell 'design_1_i/Edge_Detector_0'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/stefa/iCloudDrive/ASU/Spring 2020/CSE_320/Labs_New/Lab3/CSE320-Marth-Lab3/CSE320-Marth-Lab3.srcs/sources_1/bd/design_1/ip/design_1_LocationFSM_1_0_1/design_1_LocationFSM_1_0.dcp' for cell 'design_1_i/LocationFSM_1'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/stefa/iCloudDrive/ASU/Spring 2020/CSE_320/Labs_New/Lab3/CSE320-Marth-Lab3/CSE320-Marth-Lab3.srcs/sources_1/bd/design_1/ip/design_1_SwordFSM_1_0_1/design_1_SwordFSM_1_0.dcp' for cell 'design_1_i/SwordFSM_1'
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1763.211 ; gain = 0.000
+INFO: [Project 1-479] Netlist was created with Vivado 2019.2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+CRITICAL WARNING: [Project 1-486] Could not resolve non-primitive black box cell 'design_1_Edge_Detector_0_1' instantiated as 'design_1_i/Edge_Detector_1' [C:/Users/stefa/iCloudDrive/ASU/Spring 2020/CSE_320/Labs_New/Lab3/CSE320-Marth-Lab3/CSE320-Marth-Lab3.srcs/sources_1/bd/design_1/synth/design_1.v:89]
+CRITICAL WARNING: [Project 1-486] Could not resolve non-primitive black box cell 'design_1_Edge_Detector_0_2' instantiated as 'design_1_i/Edge_Detector_2' [C:/Users/stefa/iCloudDrive/ASU/Spring 2020/CSE_320/Labs_New/Lab3/CSE320-Marth-Lab3/CSE320-Marth-Lab3.srcs/sources_1/bd/design_1/synth/design_1.v:93]
+CRITICAL WARNING: [Project 1-486] Could not resolve non-primitive black box cell 'design_1_Edge_Detector_0_3' instantiated as 'design_1_i/Edge_Detector_3' [C:/Users/stefa/iCloudDrive/ASU/Spring 2020/CSE_320/Labs_New/Lab3/CSE320-Marth-Lab3/CSE320-Marth-Lab3.srcs/sources_1/bd/design_1/synth/design_1.v:97]
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1763.211 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+open_run: Time (s): cpu = 00:00:13 ; elapsed = 00:00:08 . Memory (MB): peak = 1864.918 ; gain = 101.707
+set_property IOSTANDARD LVCMOS33 [get_ports [list clock]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list clock]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list reset]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list D]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list E]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list N]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list q0]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list q1]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list q2]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list q3]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list q4]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list q5]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list q6]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list S]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list V]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list W]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list WIN]]
+place_ports clock E3
+place_ports reset V10
+set_property package_pin "" [get_ports [list  D]]
+place_ports N M18
+place_ports S P18
+place_ports E M17
+place_ports W P17
+place_ports V R12
+place_ports D N16
+place_ports WIN R11
+place_ports q0 H17
+place_ports q1 K15
+place_ports q2 J13
+place_ports q3 N14
+place_ports q4 R18
+place_ports q5 V17
+place_ports q6 U17
+file mkdir {C:/Users/stefa/iCloudDrive/ASU/Spring 2020/CSE_320/Labs_New/Lab3/CSE320-Marth-Lab3/CSE320-Marth-Lab3.srcs/constrs_1/new}
+close [ open {C:/Users/stefa/iCloudDrive/ASU/Spring 2020/CSE_320/Labs_New/Lab3/CSE320-Marth-Lab3/CSE320-Marth-Lab3.srcs/constrs_1/new/design_1_constraints.xdc} w ]
+add_files -fileset constrs_1 {{C:/Users/stefa/iCloudDrive/ASU/Spring 2020/CSE_320/Labs_New/Lab3/CSE320-Marth-Lab3/CSE320-Marth-Lab3.srcs/constrs_1/new/design_1_constraints.xdc}}
+set_property target_constrs_file {C:/Users/stefa/iCloudDrive/ASU/Spring 2020/CSE_320/Labs_New/Lab3/CSE320-Marth-Lab3/CSE320-Marth-Lab3.srcs/constrs_1/new/design_1_constraints.xdc} [current_fileset -constrset]
+save_constraints -force
+close_design
+reset_run synth_1
+launch_runs impl_1 -jobs 8
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP design_1_Edge_Detector_0_1, cache-ID = 695268eee973cf40; cache size = 0.336 MB.
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP design_1_Edge_Detector_0_2, cache-ID = 695268eee973cf40; cache size = 0.336 MB.
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP design_1_Edge_Detector_0_3, cache-ID = 695268eee973cf40; cache size = 0.336 MB.
+INFO: [IP_Flow 19-5642] Done with IP cache export for multiple IPs
+[Wed Mar 18 14:56:04 2020] Launched synth_1...
+Run output will be captured here: C:/Users/stefa/iCloudDrive/ASU/Spring 2020/CSE_320/Labs_New/Lab3/CSE320-Marth-Lab3/CSE320-Marth-Lab3.runs/synth_1/runme.log
+[Wed Mar 18 14:56:04 2020] Launched impl_1...
+Run output will be captured here: C:/Users/stefa/iCloudDrive/ASU/Spring 2020/CSE_320/Labs_New/Lab3/CSE320-Marth-Lab3/CSE320-Marth-Lab3.runs/impl_1/runme.log
+make_wrapper -files [get_files {{C:/Users/stefa/iCloudDrive/ASU/Spring 2020/CSE_320/Labs_New/Lab3/CSE320-Marth-Lab3/CSE320-Marth-Lab3.srcs/sources_1/bd/design_1/design_1.bd}}] -top
+export_ip_user_files -of_objects  [get_files {{C:/Users/stefa/iCloudDrive/ASU/Spring 2020/CSE_320/Labs_New/Lab3/CSE320-Marth-Lab3/CSE320-Marth-Lab3.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.v}}] -no_script -reset -force -quiet
+remove_files  {{C:/Users/stefa/iCloudDrive/ASU/Spring 2020/CSE_320/Labs_New/Lab3/CSE320-Marth-Lab3/CSE320-Marth-Lab3.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.v}}
+update_compile_order -fileset sources_1
+reset_target all [get_files  {{C:/Users/stefa/iCloudDrive/ASU/Spring 2020/CSE_320/Labs_New/Lab3/CSE320-Marth-Lab3/CSE320-Marth-Lab3.srcs/sources_1/bd/design_1/design_1.bd}}]
+export_ip_user_files -of_objects  [get_files  {{C:/Users/stefa/iCloudDrive/ASU/Spring 2020/CSE_320/Labs_New/Lab3/CSE320-Marth-Lab3/CSE320-Marth-Lab3.srcs/sources_1/bd/design_1/design_1.bd}}] -sync -no_script -force -quiet
+delete_ip_run [get_files -of_objects [get_fileset sources_1] {{C:/Users/stefa/iCloudDrive/ASU/Spring 2020/CSE_320/Labs_New/Lab3/CSE320-Marth-Lab3/CSE320-Marth-Lab3.srcs/sources_1/bd/design_1/design_1.bd}}]
+update_compile_order -fileset sources_1
+generate_target all [get_files  {{C:/Users/stefa/iCloudDrive/ASU/Spring 2020/CSE_320/Labs_New/Lab3/CSE320-Marth-Lab3/CSE320-Marth-Lab3.srcs/sources_1/bd/design_1/design_1.bd}}]
+INFO: [BD 41-1662] The design 'design_1.bd' is already validated. Therefore parameter propagation will not be re-run.
+VHDL Output written to : C:/Users/stefa/iCloudDrive/ASU/Spring 2020/CSE_320/Labs_New/Lab3/CSE320-Marth-Lab3/CSE320-Marth-Lab3.srcs/sources_1/bd/design_1/synth/design_1.v
+VHDL Output written to : C:/Users/stefa/iCloudDrive/ASU/Spring 2020/CSE_320/Labs_New/Lab3/CSE320-Marth-Lab3/CSE320-Marth-Lab3.srcs/sources_1/bd/design_1/sim/design_1.v
+VHDL Output written to : C:/Users/stefa/iCloudDrive/ASU/Spring 2020/CSE_320/Labs_New/Lab3/CSE320-Marth-Lab3/CSE320-Marth-Lab3.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.v
+INFO: [BD 41-1029] Generation completed for the IP Integrator block Edge_Detector_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block Edge_Detector_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block Edge_Detector_2 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block Edge_Detector_3 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block SwordFSM_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block LocationFSM_1 .
+Exporting to file C:/Users/stefa/iCloudDrive/ASU/Spring 2020/CSE_320/Labs_New/Lab3/CSE320-Marth-Lab3/CSE320-Marth-Lab3.srcs/sources_1/bd/design_1/hw_handoff/design_1.hwh
+Generated Block Design Tcl file C:/Users/stefa/iCloudDrive/ASU/Spring 2020/CSE_320/Labs_New/Lab3/CSE320-Marth-Lab3/CSE320-Marth-Lab3.srcs/sources_1/bd/design_1/hw_handoff/design_1_bd.tcl
+Generated Hardware Definition File C:/Users/stefa/iCloudDrive/ASU/Spring 2020/CSE_320/Labs_New/Lab3/CSE320-Marth-Lab3/CSE320-Marth-Lab3.srcs/sources_1/bd/design_1/synth/design_1.hwdef
+catch { config_ip_cache -export [get_ips -all design_1_Edge_Detector_0_0] }
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP design_1_Edge_Detector_0_0, cache-ID = 695268eee973cf40; cache size = 0.336 MB.
+catch { config_ip_cache -export [get_ips -all design_1_Edge_Detector_0_1] }
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP design_1_Edge_Detector_0_1, cache-ID = 695268eee973cf40; cache size = 0.336 MB.
+catch { config_ip_cache -export [get_ips -all design_1_Edge_Detector_0_2] }
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP design_1_Edge_Detector_0_2, cache-ID = 695268eee973cf40; cache size = 0.336 MB.
+catch { config_ip_cache -export [get_ips -all design_1_Edge_Detector_0_3] }
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP design_1_Edge_Detector_0_3, cache-ID = 695268eee973cf40; cache size = 0.336 MB.
+catch { config_ip_cache -export [get_ips -all design_1_SwordFSM_1_0] }
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP design_1_SwordFSM_1_0, cache-ID = 7d2407770ab90152; cache size = 0.336 MB.
+catch { config_ip_cache -export [get_ips -all design_1_LocationFSM_1_0] }
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP design_1_LocationFSM_1_0, cache-ID = a393866de408da56; cache size = 0.336 MB.
+export_ip_user_files -of_objects [get_files {{C:/Users/stefa/iCloudDrive/ASU/Spring 2020/CSE_320/Labs_New/Lab3/CSE320-Marth-Lab3/CSE320-Marth-Lab3.srcs/sources_1/bd/design_1/design_1.bd}}] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] {{C:/Users/stefa/iCloudDrive/ASU/Spring 2020/CSE_320/Labs_New/Lab3/CSE320-Marth-Lab3/CSE320-Marth-Lab3.srcs/sources_1/bd/design_1/design_1.bd}}]
+export_simulation -of_objects [get_files {{C:/Users/stefa/iCloudDrive/ASU/Spring 2020/CSE_320/Labs_New/Lab3/CSE320-Marth-Lab3/CSE320-Marth-Lab3.srcs/sources_1/bd/design_1/design_1.bd}}] -directory {C:/Users/stefa/iCloudDrive/ASU/Spring 2020/CSE_320/Labs_New/Lab3/CSE320-Marth-Lab3/CSE320-Marth-Lab3.ip_user_files/sim_scripts} -ip_user_files_dir {C:/Users/stefa/iCloudDrive/ASU/Spring 2020/CSE_320/Labs_New/Lab3/CSE320-Marth-Lab3/CSE320-Marth-Lab3.ip_user_files} -ipstatic_source_dir {C:/Users/stefa/iCloudDrive/ASU/Spring 2020/CSE_320/Labs_New/Lab3/CSE320-Marth-Lab3/CSE320-Marth-Lab3.ip_user_files/ipstatic} -lib_map_path [list {modelsim=C:/Users/stefa/iCloudDrive/ASU/Spring 2020/CSE_320/Labs_New/Lab3/CSE320-Marth-Lab3/CSE320-Marth-Lab3.cache/compile_simlib/modelsim} {questa=C:/Users/stefa/iCloudDrive/ASU/Spring 2020/CSE_320/Labs_New/Lab3/CSE320-Marth-Lab3/CSE320-Marth-Lab3.cache/compile_simlib/questa} {riviera=C:/Users/stefa/iCloudDrive/ASU/Spring 2020/CSE_320/Labs_New/Lab3/CSE320-Marth-Lab3/CSE320-Marth-Lab3.cache/compile_simlib/riviera} {activehdl=C:/Users/stefa/iCloudDrive/ASU/Spring 2020/CSE_320/Labs_New/Lab3/CSE320-Marth-Lab3/CSE320-Marth-Lab3.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+make_wrapper -files [get_files {{C:/Users/stefa/iCloudDrive/ASU/Spring 2020/CSE_320/Labs_New/Lab3/CSE320-Marth-Lab3/CSE320-Marth-Lab3.srcs/sources_1/bd/design_1/design_1.bd}}] -top
+add_files -norecurse {{C:/Users/stefa/iCloudDrive/ASU/Spring 2020/CSE_320/Labs_New/Lab3/CSE320-Marth-Lab3/CSE320-Marth-Lab3.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.v}}
+update_compile_order -fileset sources_1
+set_property top design_1_wrapper [current_fileset]
+generate_target all [get_files  {{C:/Users/stefa/iCloudDrive/ASU/Spring 2020/CSE_320/Labs_New/Lab3/CSE320-Marth-Lab3/CSE320-Marth-Lab3.srcs/sources_1/bd/design_1/design_1.bd}}]
+INFO: [BD 41-1637] Generated targets are already up-to-date for block design 'design_1' - hence not re-generating.
+export_ip_user_files -of_objects [get_files {{C:/Users/stefa/iCloudDrive/ASU/Spring 2020/CSE_320/Labs_New/Lab3/CSE320-Marth-Lab3/CSE320-Marth-Lab3.srcs/sources_1/bd/design_1/design_1.bd}}] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] {{C:/Users/stefa/iCloudDrive/ASU/Spring 2020/CSE_320/Labs_New/Lab3/CSE320-Marth-Lab3/CSE320-Marth-Lab3.srcs/sources_1/bd/design_1/design_1.bd}}]
+export_simulation -of_objects [get_files {{C:/Users/stefa/iCloudDrive/ASU/Spring 2020/CSE_320/Labs_New/Lab3/CSE320-Marth-Lab3/CSE320-Marth-Lab3.srcs/sources_1/bd/design_1/design_1.bd}}] -directory {C:/Users/stefa/iCloudDrive/ASU/Spring 2020/CSE_320/Labs_New/Lab3/CSE320-Marth-Lab3/CSE320-Marth-Lab3.ip_user_files/sim_scripts} -ip_user_files_dir {C:/Users/stefa/iCloudDrive/ASU/Spring 2020/CSE_320/Labs_New/Lab3/CSE320-Marth-Lab3/CSE320-Marth-Lab3.ip_user_files} -ipstatic_source_dir {C:/Users/stefa/iCloudDrive/ASU/Spring 2020/CSE_320/Labs_New/Lab3/CSE320-Marth-Lab3/CSE320-Marth-Lab3.ip_user_files/ipstatic} -lib_map_path [list {modelsim=C:/Users/stefa/iCloudDrive/ASU/Spring 2020/CSE_320/Labs_New/Lab3/CSE320-Marth-Lab3/CSE320-Marth-Lab3.cache/compile_simlib/modelsim} {questa=C:/Users/stefa/iCloudDrive/ASU/Spring 2020/CSE_320/Labs_New/Lab3/CSE320-Marth-Lab3/CSE320-Marth-Lab3.cache/compile_simlib/questa} {riviera=C:/Users/stefa/iCloudDrive/ASU/Spring 2020/CSE_320/Labs_New/Lab3/CSE320-Marth-Lab3/CSE320-Marth-Lab3.cache/compile_simlib/riviera} {activehdl=C:/Users/stefa/iCloudDrive/ASU/Spring 2020/CSE_320/Labs_New/Lab3/CSE320-Marth-Lab3/CSE320-Marth-Lab3.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP LocationFSM_E_inv_0, cache-ID = 58905ae888fab4f1; cache size = 0.336 MB.
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP LocationFSM_V_inv_0, cache-ID = 58905ae888fab4f1; cache size = 0.336 MB.
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP LocationFSM_xup_and2_7_0, cache-ID = 7a5bc3f7b70134a2; cache size = 0.336 MB.
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP LocationFSM_xup_or3_1_1, cache-ID = 5779b94330965434; cache size = 0.336 MB.
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP LocationFSM_N_inv_0, cache-ID = 58905ae888fab4f1; cache size = 0.336 MB.
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP LocationFSM_W_inv_0, cache-ID = 58905ae888fab4f1; cache size = 0.336 MB.
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP LocationFSM_xup_and2_8_2, cache-ID = 7a5bc3f7b70134a2; cache size = 0.336 MB.
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP LocationFSM_S0_0, cache-ID = f2268c0b79a21d07; cache size = 0.336 MB.
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP LocationFSM_xup_and2_0_2, cache-ID = 7a5bc3f7b70134a2; cache size = 0.336 MB.
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP LocationFSM_xup_and2_9_1, cache-ID = 7a5bc3f7b70134a2; cache size = 0.336 MB.
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP LocationFSM_S1_0, cache-ID = d4be83b122c328fe; cache size = 0.336 MB.
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP LocationFSM_xup_and2_10_0, cache-ID = 7a5bc3f7b70134a2; cache size = 0.336 MB.
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP LocationFSM_xup_and3_0_1, cache-ID = 8f4c7e156f87a8c6; cache size = 0.336 MB.
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP LocationFSM_S2_0, cache-ID = d4be83b122c328fe; cache size = 0.336 MB.
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP LocationFSM_xup_and2_1_0, cache-ID = 7a5bc3f7b70134a2; cache size = 0.336 MB.
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP LocationFSM_xup_and4_0_1, cache-ID = ad1f66ed9849ccbb; cache size = 0.336 MB.
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP LocationFSM_S3_0, cache-ID = d4be83b122c328fe; cache size = 0.336 MB.
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP LocationFSM_xup_and2_3_0, cache-ID = 7a5bc3f7b70134a2; cache size = 0.336 MB.
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP LocationFSM_xup_or2_1_1, cache-ID = de034398b746b89e; cache size = 0.336 MB.
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP LocationFSM_S4_0, cache-ID = d4be83b122c328fe; cache size = 0.336 MB.
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP LocationFSM_xup_and2_2_2, cache-ID = 7a5bc3f7b70134a2; cache size = 0.336 MB.
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP LocationFSM_xup_or2_0_1, cache-ID = de034398b746b89e; cache size = 0.336 MB.
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP LocationFSM_S5_0, cache-ID = d4be83b122c328fe; cache size = 0.336 MB.
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP LocationFSM_xup_and2_4_1, cache-ID = 7a5bc3f7b70134a2; cache size = 0.336 MB.
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP LocationFSM_xup_or2_2_2, cache-ID = de034398b746b89e; cache size = 0.336 MB.
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP LocationFSM_S6_0, cache-ID = d4be83b122c328fe; cache size = 0.336 MB.
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP LocationFSM_xup_and2_5_1, cache-ID = 7a5bc3f7b70134a2; cache size = 0.336 MB.
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP LocationFSM_xup_or2_3_0, cache-ID = de034398b746b89e; cache size = 0.336 MB.
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP LocationFSM_S_inv_0, cache-ID = 58905ae888fab4f1; cache size = 0.336 MB.
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP LocationFSM_xup_and2_6_2, cache-ID = 7a5bc3f7b70134a2; cache size = 0.336 MB.
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP LocationFSM_xup_or3_0_1, cache-ID = 5779b94330965434; cache size = 0.336 MB.
+INFO: [IP_Flow 19-5642] Done with IP cache export for multiple IPs
+[Wed Mar 18 15:00:39 2020] Launched synth_1...
+Run output will be captured here: C:/Users/stefa/iCloudDrive/ASU/Spring 2020/CSE_320/Labs_New/Lab3/CSE320-Marth-Lab3/CSE320-Marth-Lab3.runs/synth_1/runme.log
+launch_runs: Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 2741.230 ; gain = 0.000
+close_project
+exit
+INFO: [Common 17-206] Exiting Vivado at Wed Mar 18 15:01:54 2020...

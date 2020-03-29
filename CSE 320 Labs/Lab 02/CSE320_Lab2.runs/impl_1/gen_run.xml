@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a100tcsg324-1" LaunchTime="1581681758">
+  <File Type="ROUTE-PWR" Name="display_decoder_wrapper_power_routed.rpt"/>
+  <File Type="PA-TCL" Name="display_decoder_wrapper.tcl"/>
+  <File Type="BITSTR-BMM" Name="display_decoder_wrapper_bd.bmm"/>
+  <File Type="ROUTE-PWR-SUM" Name="display_decoder_wrapper_power_summary_routed.pb"/>
+  <File Type="REPORTS-TCL" Name="display_decoder_wrapper_reports.tcl"/>
+  <File Type="OPT-DCP" Name="display_decoder_wrapper_opt.dcp"/>
+  <File Type="OPT-DRC" Name="display_decoder_wrapper_drc_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="display_decoder_wrapper.hwdef"/>
+  <File Type="PWROPT-DCP" Name="display_decoder_wrapper_pwropt.dcp"/>
+  <File Type="PLACE-DCP" Name="display_decoder_wrapper_placed.dcp"/>
+  <File Type="PLACE-IO" Name="display_decoder_wrapper_io_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="display_decoder_wrapper_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="display_decoder_wrapper_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="display_decoder_wrapper_control_sets_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="display_decoder_wrapper_incremental_reuse_pre_placed.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="display_decoder_wrapper_postplace_pwropt.dcp"/>
+  <File Type="BG-BIN" Name="display_decoder_wrapper.bin"/>
+  <File Type="PHYSOPT-DCP" Name="display_decoder_wrapper_physopt.dcp"/>
+  <File Type="BITSTR-MSK" Name="display_decoder_wrapper.msk"/>
+  <File Type="ROUTE-ERROR-DCP" Name="display_decoder_wrapper_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="display_decoder_wrapper_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="display_decoder_wrapper_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="display_decoder_wrapper_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="display_decoder_wrapper_drc_routed.pb"/>
+  <File Type="ROUTE-DRC-RPX" Name="display_decoder_wrapper_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="display_decoder_wrapper_methodology_drc_routed.rpt"/>
+  <File Type="BITSTR-MMI" Name="display_decoder_wrapper.mmi"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="display_decoder_wrapper_methodology_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="display_decoder_wrapper_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-PWR-RPX" Name="display_decoder_wrapper_power_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="display_decoder_wrapper_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="display_decoder_wrapper_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="display_decoder_wrapper_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="display_decoder_wrapper_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="display_decoder_wrapper_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-CLK" Name="display_decoder_wrapper_clock_utilization_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW" Name="display_decoder_wrapper_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="display_decoder_wrapper_bus_skew_routed.pb"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="display_decoder_wrapper_bus_skew_routed.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="display_decoder_wrapper_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="display_decoder_wrapper_postroute_physopt_bb.dcp"/>
+  <File Type="BG-BIT" Name="display_decoder_wrapper.bit"/>
+  <File Type="BITSTR-RBT" Name="display_decoder_wrapper.rbt"/>
+  <File Type="BITSTR-NKY" Name="display_decoder_wrapper.nky"/>
+  <File Type="PDI-FILE" Name="display_decoder_wrapper.pdi"/>
+  <File Type="RCFI_FILE" Name="display_decoder_wrapper.rcfi"/>
+  <File Type="CFI_FILE" Name="display_decoder_wrapper.cfi"/>
+  <File Type="RNPI_FILE" Name="display_decoder_wrapper.rnpi"/>
+  <File Type="NPI_FILE" Name="display_decoder_wrapper.npi"/>
+  <File Type="RBD_FILE" Name="display_decoder_wrapper.rbd"/>
+  <File Type="BITSTR-LTX" Name="display_decoder_wrapper.ltx"/>
+  <File Type="BITSTR-SYSDEF" Name="display_decoder_wrapper.sysdef"/>
+  <File Type="BG-BGN" Name="display_decoder_wrapper.bgn"/>
+  <File Type="BG-DRC" Name="display_decoder_wrapper.drc"/>
+  <File Type="RDI-RDI" Name="display_decoder_wrapper.vdi"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/bd/display_decoder/display_decoder.bd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/bd/display_decoder/hdl/display_decoder_wrapper.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/bd/segment_a/segment_a.bd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/bd/segment_a/hdl/segment_a_wrapper.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/bd/segment_g/segment_g.bd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/bd/segment_f/segment_f.bd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/bd/segment_e/segment_e.bd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/bd/segment_d/segment_d.bd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/bd/segment_c/segment_c.bd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/bd/segment_b/segment_b.bd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/bd/segment_b/hdl/segment_b_wrapper.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/bd/segment_c/hdl/segment_c_wrapper.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/bd/segment_d/hdl/segment_d_wrapper.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/bd/segment_e/hdl/segment_e_wrapper.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/bd/segment_f/hdl/segment_f_wrapper.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/bd/segment_g/hdl/segment_g_wrapper.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="display_decoder_wrapper"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PPRDIR/my_xdc.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TargetConstrsFile" Val="$PPRDIR/my_xdc.xdc"/>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2019"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design" EnableStepBool="1"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+    <Step Id="write_device_image"/>
+  </Strategy>
+  <BlockFileSet Type="BlockSrcs" Name="segment_d_xup_and3_0_2"/>
+  <BlockFileSet Type="BlockSrcs" Name="segment_b_xup_and3_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="segment_b_xup_and3_0_1"/>
+  <BlockFileSet Type="BlockSrcs" Name="segment_b_xup_or2_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="segment_b_xup_inv_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="segment_c_xup_inv_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="display_decoder_segment_a_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="segment_e_xup_or2_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="segment_d_xup_or3_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="segment_b_xup_inv_0_1"/>
+  <BlockFileSet Type="BlockSrcs" Name="segment_b_xup_inv_0_2"/>
+  <BlockFileSet Type="BlockSrcs" Name="segment_c_xup_inv_0_1"/>
+  <BlockFileSet Type="BlockSrcs" Name="segment_d_xup_inv_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="display_decoder_segment_b_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="segment_b_xup_inv_0_3"/>
+  <BlockFileSet Type="BlockSrcs" Name="segment_c_xup_inv_0_2"/>
+  <BlockFileSet Type="BlockSrcs" Name="segment_d_xup_inv_0_1"/>
+  <BlockFileSet Type="BlockSrcs" Name="segment_e_xup_inv_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="segment_f_xup_or3_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="segment_g_xup_or2_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="display_decoder_segment_c_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="segment_c_xup_and3_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="segment_d_xup_and3_0_1"/>
+  <BlockFileSet Type="BlockSrcs" Name="segment_c_xup_inv_0_3"/>
+  <BlockFileSet Type="BlockSrcs" Name="segment_d_xup_inv_0_2"/>
+  <BlockFileSet Type="BlockSrcs" Name="segment_e_xup_inv_0_1"/>
+  <BlockFileSet Type="BlockSrcs" Name="segment_f_xup_inv_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="display_decoder_segment_d_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="segment_d_xup_and3_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="segment_d_xup_inv_0_3"/>
+  <BlockFileSet Type="BlockSrcs" Name="segment_e_xup_inv_0_2"/>
+  <BlockFileSet Type="BlockSrcs" Name="segment_f_xup_inv_0_1"/>
+  <BlockFileSet Type="BlockSrcs" Name="segment_g_xup_inv_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="display_decoder_segment_e_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="display_decoder_Segment_LED_Interface_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="segment_e_xup_and2_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="segment_f_xup_and3_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="segment_g_xup_and3_0_1"/>
+  <BlockFileSet Type="BlockSrcs" Name="segment_e_xup_inv_0_3"/>
+  <BlockFileSet Type="BlockSrcs" Name="segment_f_xup_inv_0_2"/>
+  <BlockFileSet Type="BlockSrcs" Name="segment_g_xup_inv_0_1"/>
+  <BlockFileSet Type="BlockSrcs" Name="display_decoder_segment_f_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="segment_f_xup_and3_0_1"/>
+  <BlockFileSet Type="BlockSrcs" Name="segment_f_xup_and2_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="segment_g_xup_and3_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="segment_f_xup_inv_0_3"/>
+  <BlockFileSet Type="BlockSrcs" Name="segment_g_xup_inv_0_2"/>
+  <BlockFileSet Type="BlockSrcs" Name="display_decoder_segment_g_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="segment_g_xup_inv_0_3"/>
+</GenRun>

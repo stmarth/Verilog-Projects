@@ -1,0 +1,120 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Mon Mar  2 14:12:31 2020
+# Process ID: 23444
+# Current directory: C:/Users/stefa/iCloudDrive/ASU/Spring 2020/CSE_320/Tutorials/CSE320_tutorial2/tutorial2
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent24616 C:\Users\stefa\iCloudDrive\ASU\Spring 2020\CSE_320\Tutorials\CSE320_tutorial2\tutorial2\tutorial2.xpr
+# Log file: C:/Users/stefa/iCloudDrive/ASU/Spring 2020/CSE_320/Tutorials/CSE320_tutorial2/tutorial2/vivado.log
+# Journal file: C:/Users/stefa/iCloudDrive/ASU/Spring 2020/CSE_320/Tutorials/CSE320_tutorial2/tutorial2\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/stefa/iCloudDrive/ASU/Spring 2020/CSE_320/Tutorials/CSE320_tutorial2/tutorial2/tutorial2.xpr}
+INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
+Current project path is 'C:/Users/stefa/iCloudDrive/ASU/Spring 2020/CSE_320/Tutorials/CSE320_tutorial2/tutorial2'
+Scanning sources...
+Finished scanning sources
+WARNING: [filemgmt 56-3] IPUserFilesDir: Could not find the directory 'C:/Users/stefa/iCloudDrive/ASU/Spring 2020/CSE_320/Tutorials/CSE320_tutorial2/tutorial2/tutorial2.ip_user_files'.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2019.2/data/ip'.
+open_project: Time (s): cpu = 00:00:15 ; elapsed = 00:00:09 . Memory (MB): peak = 877.789 ; gain = 171.371
+update_compile_order -fileset sources_1
+save_project_as tuturial3 {C:/Users/stefa/iCloudDrive/ASU/Spring 2020/CSE_320/Tutorials/CSE320_tutorial3/tuturial3} -force
+INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
+Current project path is 'C:/Users/stefa/iCloudDrive/ASU/Spring 2020/CSE_320/Tutorials/CSE320_tutorial3/tuturial3'
+set_property STEPS.SYNTH_DESIGN.ARGS.FLATTEN_HIERARCHY rebuilt [get_runs synth_flatten]
+reset_run synth_flatten
+set_property STEPS.SYNTH_DESIGN.ARGS.FLATTEN_HIERARCHY full [get_runs synth_flatten]
+set_property STEPS.SYNTH_DESIGN.ARGS.FLATTEN_HIERARCHY rebuilt [get_runs synth_flatten]
+launch_runs synth_flatten -jobs 6
+[Mon Mar  2 14:29:09 2020] Launched synth_flatten...
+Run output will be captured here: C:/Users/stefa/iCloudDrive/ASU/Spring 2020/CSE_320/Tutorials/CSE320_tutorial3/tuturial3/tuturial3.runs/synth_flatten/runme.log
+launch_runs: Time (s): cpu = 00:00:02 ; elapsed = 00:00:18 . Memory (MB): peak = 996.004 ; gain = 9.000
+open_run synth_flatten -name synth_flatten
+Design is defaulting to impl run constrset: constrs_1
+Design is defaulting to synth run part: xc7a100tcsg324-1
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1258.535 ; gain = 0.000
+INFO: [Project 1-479] Netlist was created with Vivado 2019.2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [C:/Users/stefa/iCloudDrive/ASU/Spring 2020/CSE_320/Tutorials/CSE320_tutorial3/tuturial3/tuturial3.srcs/constrs_1/imports/CSE320_tutorial2_source/uart_led_timing.xdc]
+INFO: [Constraints 18-483] create_clock: no pin(s)/port(s)/net(s) specified as objects, only virtual clock 'virtual_clock' will be created. If you don't want this, please specify pin(s)/ports(s)/net(s) as objects to the command. [C:/Users/stefa/iCloudDrive/ASU/Spring 2020/CSE_320/Tutorials/CSE320_tutorial3/tuturial3/tuturial3.srcs/constrs_1/imports/CSE320_tutorial2_source/uart_led_timing.xdc:6]
+Finished Parsing XDC File [C:/Users/stefa/iCloudDrive/ASU/Spring 2020/CSE_320/Tutorials/CSE320_tutorial3/tuturial3/tuturial3.srcs/constrs_1/imports/CSE320_tutorial2_source/uart_led_timing.xdc]
+Parsing XDC File [C:/Users/stefa/iCloudDrive/ASU/Spring 2020/CSE_320/Tutorials/CSE320_tutorial3/tuturial3/tuturial3.srcs/constrs_1/imports/CSE320_tutorial2_source/uart_led_pins_nexys4_ddr.xdc]
+Finished Parsing XDC File [C:/Users/stefa/iCloudDrive/ASU/Spring 2020/CSE_320/Tutorials/CSE320_tutorial3/tuturial3/tuturial3.srcs/constrs_1/imports/CSE320_tutorial2_source/uart_led_pins_nexys4_ddr.xdc]
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1363.199 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+open_run: Time (s): cpu = 00:00:25 ; elapsed = 00:00:27 . Memory (MB): peak = 1485.930 ; gain = 489.926
+report_timing_summary -delay_type min_max -report_unconstrained -check_timing_verbose -max_paths 10 -input_pins -routable_nets -name timing_1
+INFO: [Constraints 18-483] create_clock: no pin(s)/port(s)/net(s) specified as objects, only virtual clock 'virtual_clock' will be created. If you don't want this, please specify pin(s)/ports(s)/net(s) as objects to the command. [C:/Users/stefa/iCloudDrive/ASU/Spring 2020/CSE_320/Tutorials/CSE320_tutorial3/tuturial3/tuturial3.srcs/constrs_1/imports/CSE320_tutorial2_source/uart_led_timing.xdc:6]
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -1, Delay Type: min_max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 2 CPUs
+INFO: [Constraints 18-483] create_clock: no pin(s)/port(s)/net(s) specified as objects, only virtual clock 'virtual_clock' will be created. If you don't want this, please specify pin(s)/ports(s)/net(s) as objects to the command. [C:/Users/stefa/iCloudDrive/ASU/Spring 2020/CSE_320/Tutorials/CSE320_tutorial3/tuturial3/tuturial3.srcs/constrs_1/imports/CSE320_tutorial2_source/uart_led_timing.xdc:6]
+report_timing_summary -delay_type min_max -report_unconstrained -check_timing_verbose -max_paths 10 -input_pins -routable_nets -name timing_1
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -1, Delay Type: min_max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 2 CPUs
+set_property target_constrs_file {C:/Users/stefa/iCloudDrive/ASU/Spring 2020/CSE_320/Tutorials/CSE320_tutorial3/tuturial3/tuturial3.srcs/constrs_1/imports/CSE320_tutorial2_source/uart_led_pins_nexys4_ddr.xdc} [current_fileset -constrset]
+save_constraints -force
+create_run synth_2 -flow {Vivado Synthesis 2019}
+Run is defaulting to srcset: sources_1
+Run is defaulting to constrset: constrs_1
+Run is defaulting to part: xc7a100tcsg324-1
+launch_runs synth_2 -jobs 6
+[Mon Mar  2 15:07:50 2020] Launched synth_2...
+Run output will be captured here: C:/Users/stefa/iCloudDrive/ASU/Spring 2020/CSE_320/Tutorials/CSE320_tutorial3/tuturial3/tuturial3.runs/synth_2/runme.log
+reset_run synth_2
+reset_run synth_flatten
+launch_runs impl_2 -jobs 6
+WARNING: [Project 1-478] Design 'synth_flatten' is stale and will not be used when launching 'impl_2'
+[Wed Mar  4 00:19:44 2020] Launched synth_flatten...
+Run output will be captured here: C:/Users/stefa/iCloudDrive/ASU/Spring 2020/CSE_320/Tutorials/CSE320_tutorial3/tuturial3/tuturial3.runs/synth_flatten/runme.log
+[Wed Mar  4 00:19:44 2020] Launched impl_2...
+Run output will be captured here: C:/Users/stefa/iCloudDrive/ASU/Spring 2020/CSE_320/Tutorials/CSE320_tutorial3/tuturial3/tuturial3.runs/impl_2/runme.log
+close_design
+open_run impl_2
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2113.988 ; gain = 0.000
+INFO: [Project 1-479] Netlist was created with Vivado 2019.2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Timing 38-478] Restoring timing data from binary archive.
+INFO: [Timing 38-479] Binary timing data restore complete.
+INFO: [Project 1-856] Restoring constraints from binary archive.
+INFO: [Project 1-853] Binary constraint restore complete.
+Reading XDEF placement.
+Reading placer database...
+Reading XDEF routing.
+Read XDEF File: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.041 . Memory (MB): peak = 2113.988 ; gain = 0.000
+Restored from archive | CPU: 0.000000 secs | Memory: 0.000000 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.042 . Memory (MB): peak = 2113.988 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2113.988 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+CRITICAL WARNING: [Timing 38-282] The design failed to meet the timing requirements. Please see the timing summary report for details on the timing violations.
+report_utilization -name utilization_1
+report_timing_summary -delay_type min_max -report_unconstrained -check_timing_verbose -max_paths 10 -input_pins -routable_nets -name timing_1
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -1, Delay Type: min_max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 2 CPUs
+INFO: [Constraints 18-483] create_clock: no pin(s)/port(s)/net(s) specified as objects, only virtual clock 'virtual_clock' will be created. If you don't want this, please specify pin(s)/ports(s)/net(s) as objects to the command. [C:/Users/stefa/iCloudDrive/ASU/Spring 2020/CSE_320/Tutorials/CSE320_tutorial3/tuturial3/tuturial3.srcs/constrs_1/imports/CSE320_tutorial2_source/uart_led_timing.xdc:6]
+report_timing_summary -delay_type min_max -report_unconstrained -check_timing_verbose -max_paths 10 -input_pins -routable_nets -name timing_1
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -1, Delay Type: min_max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 2 CPUs
+report_clock_networks -name {network_1}
+save_constraints
+reset_run synth_flatten
+launch_runs impl_2 -to_step write_bitstream -jobs 6
+[Wed Mar  4 00:40:23 2020] Launched synth_flatten...
+Run output will be captured here: C:/Users/stefa/iCloudDrive/ASU/Spring 2020/CSE_320/Tutorials/CSE320_tutorial3/tuturial3/tuturial3.runs/synth_flatten/runme.log
+[Wed Mar  4 00:40:23 2020] Launched impl_2...
+Run output will be captured here: C:/Users/stefa/iCloudDrive/ASU/Spring 2020/CSE_320/Tutorials/CSE320_tutorial3/tuturial3/tuturial3.runs/impl_2/runme.log
+close_design
+close_project
+exit
+INFO: [Common 17-206] Exiting Vivado at Wed Mar  4 00:46:43 2020...

@@ -1,0 +1,7 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"final_tb_time_impl.v" \
+"../../../../../CSE320-Marth-Lab3.srcs/sim_1/imports/CSE320-Marth-Lab3/final_tb.v" \
+
+# Do not sort compile order
+nosort

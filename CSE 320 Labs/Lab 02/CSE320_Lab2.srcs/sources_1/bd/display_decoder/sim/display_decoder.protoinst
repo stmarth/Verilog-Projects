@@ -1,0 +1,9 @@
+{
+	"version": "1.0",
+	"modules": {
+		"display_decoder": {
+			"proto_instances": {
+			}
+		}
+	}
+}

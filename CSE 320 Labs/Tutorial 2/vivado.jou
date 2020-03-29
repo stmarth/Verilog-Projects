@@ -1,0 +1,45 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Mon Mar  2 14:12:31 2020
+# Process ID: 23444
+# Current directory: C:/Users/stefa/iCloudDrive/ASU/Spring 2020/CSE_320/Tutorials/CSE320_tutorial2/tutorial2
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent24616 C:\Users\stefa\iCloudDrive\ASU\Spring 2020\CSE_320\Tutorials\CSE320_tutorial2\tutorial2\tutorial2.xpr
+# Log file: C:/Users/stefa/iCloudDrive/ASU/Spring 2020/CSE_320/Tutorials/CSE320_tutorial2/tutorial2/vivado.log
+# Journal file: C:/Users/stefa/iCloudDrive/ASU/Spring 2020/CSE_320/Tutorials/CSE320_tutorial2/tutorial2\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/stefa/iCloudDrive/ASU/Spring 2020/CSE_320/Tutorials/CSE320_tutorial2/tutorial2/tutorial2.xpr}
+update_compile_order -fileset sources_1
+save_project_as tuturial3 {C:/Users/stefa/iCloudDrive/ASU/Spring 2020/CSE_320/Tutorials/CSE320_tutorial3/tuturial3} -force
+set_property STEPS.SYNTH_DESIGN.ARGS.FLATTEN_HIERARCHY rebuilt [get_runs synth_flatten]
+reset_run synth_flatten
+set_property STEPS.SYNTH_DESIGN.ARGS.FLATTEN_HIERARCHY full [get_runs synth_flatten]
+set_property STEPS.SYNTH_DESIGN.ARGS.FLATTEN_HIERARCHY rebuilt [get_runs synth_flatten]
+launch_runs synth_flatten -jobs 6
+wait_on_run synth_flatten
+open_run synth_flatten -name synth_flatten
+report_timing_summary -delay_type min_max -report_unconstrained -check_timing_verbose -max_paths 10 -input_pins -routable_nets -name timing_1
+report_timing_summary -delay_type min_max -report_unconstrained -check_timing_verbose -max_paths 10 -input_pins -routable_nets -name timing_1
+set_property target_constrs_file {C:/Users/stefa/iCloudDrive/ASU/Spring 2020/CSE_320/Tutorials/CSE320_tutorial3/tuturial3/tuturial3.srcs/constrs_1/imports/CSE320_tutorial2_source/uart_led_pins_nexys4_ddr.xdc} [current_fileset -constrset]
+save_constraints -force
+create_run synth_2 -flow {Vivado Synthesis 2019}
+launch_runs synth_2 -jobs 6
+wait_on_run synth_2
+reset_run synth_2
+reset_run synth_flatten
+launch_runs impl_2 -jobs 6
+wait_on_run impl_2
+close_design
+open_run impl_2
+report_utilization -name utilization_1
+report_timing_summary -delay_type min_max -report_unconstrained -check_timing_verbose -max_paths 10 -input_pins -routable_nets -name timing_1
+report_timing_summary -delay_type min_max -report_unconstrained -check_timing_verbose -max_paths 10 -input_pins -routable_nets -name timing_1
+report_clock_networks -name {network_1}
+save_constraints
+reset_run synth_flatten
+launch_runs impl_2 -to_step write_bitstream -jobs 6
+wait_on_run impl_2
+close_design
+close_project

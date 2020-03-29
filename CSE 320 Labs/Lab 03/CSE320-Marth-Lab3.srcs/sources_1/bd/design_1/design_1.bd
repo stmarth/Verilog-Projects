@@ -1,0 +1,231 @@
+{
+  "design": {
+    "design_info": {
+      "boundary_crc": "0xD603180E821CF6B3",
+      "device": "xc7a100tcsg324-1",
+      "name": "design_1",
+      "synth_flow_mode": "Hierarchical",
+      "tool_version": "2019.2",
+      "validated": "true"
+    },
+    "design_tree": {
+      "Edge_Detector_0": "",
+      "Edge_Detector_1": "",
+      "Edge_Detector_2": "",
+      "Edge_Detector_3": "",
+      "SwordFSM_1": "",
+      "LocationFSM_1": ""
+    },
+    "ports": {
+      "clock": {
+        "direction": "I"
+      },
+      "reset": {
+        "direction": "I"
+      },
+      "N": {
+        "direction": "I"
+      },
+      "S": {
+        "direction": "I"
+      },
+      "E": {
+        "direction": "I"
+      },
+      "W": {
+        "direction": "I"
+      },
+      "V": {
+        "direction": "O"
+      },
+      "q3": {
+        "direction": "O"
+      },
+      "q2": {
+        "direction": "O"
+      },
+      "q1": {
+        "direction": "O"
+      },
+      "q0": {
+        "direction": "O"
+      },
+      "WIN": {
+        "direction": "O"
+      },
+      "q5": {
+        "direction": "O"
+      },
+      "D": {
+        "direction": "O"
+      },
+      "q4": {
+        "direction": "O"
+      },
+      "q6": {
+        "direction": "O"
+      }
+    },
+    "components": {
+      "Edge_Detector_0": {
+        "vlnv": "asu.edu:user:Edge_Detector:1.0",
+        "xci_name": "design_1_Edge_Detector_0_0"
+      },
+      "Edge_Detector_1": {
+        "vlnv": "asu.edu:user:Edge_Detector:1.0",
+        "xci_name": "design_1_Edge_Detector_0_1"
+      },
+      "Edge_Detector_2": {
+        "vlnv": "asu.edu:user:Edge_Detector:1.0",
+        "xci_name": "design_1_Edge_Detector_0_2"
+      },
+      "Edge_Detector_3": {
+        "vlnv": "asu.edu:user:Edge_Detector:1.0",
+        "xci_name": "design_1_Edge_Detector_0_3"
+      },
+      "SwordFSM_1": {
+        "vlnv": "xilinx.com:user:SwordFSM:1.0",
+        "xci_name": "design_1_SwordFSM_1_0"
+      },
+      "LocationFSM_1": {
+        "vlnv": "xilinx.com:user:LocationFSM:1.0",
+        "xci_name": "design_1_LocationFSM_1_0"
+      }
+    },
+    "nets": {
+      "reset_1": {
+        "ports": [
+          "reset",
+          "SwordFSM_1/reset",
+          "LocationFSM_1/reset"
+        ]
+      },
+      "clock_1": {
+        "ports": [
+          "clock",
+          "Edge_Detector_0/clk",
+          "Edge_Detector_1/clk",
+          "Edge_Detector_3/clk",
+          "Edge_Detector_2/clk",
+          "SwordFSM_1/clock",
+          "LocationFSM_1/clock"
+        ]
+      },
+      "SwordFSM_0_V": {
+        "ports": [
+          "SwordFSM_1/V",
+          "V",
+          "LocationFSM_1/V"
+        ]
+      },
+      "E_1": {
+        "ports": [
+          "E",
+          "Edge_Detector_0/signal"
+        ]
+      },
+      "N_1": {
+        "ports": [
+          "N",
+          "Edge_Detector_1/signal"
+        ]
+      },
+      "S_1": {
+        "ports": [
+          "S",
+          "Edge_Detector_3/signal"
+        ]
+      },
+      "W_1": {
+        "ports": [
+          "W",
+          "Edge_Detector_2/signal"
+        ]
+      },
+      "Edge_Detector_0_posedge_signal": {
+        "ports": [
+          "Edge_Detector_0/posedge_signal",
+          "LocationFSM_1/E"
+        ]
+      },
+      "Edge_Detector_1_posedge_signal": {
+        "ports": [
+          "Edge_Detector_1/posedge_signal",
+          "LocationFSM_1/N"
+        ]
+      },
+      "Edge_Detector_3_posedge_signal": {
+        "ports": [
+          "Edge_Detector_3/posedge_signal",
+          "LocationFSM_1/S"
+        ]
+      },
+      "Edge_Detector_2_posedge_signal": {
+        "ports": [
+          "Edge_Detector_2/posedge_signal",
+          "LocationFSM_1/W"
+        ]
+      },
+      "LocationFSM_1_D": {
+        "ports": [
+          "LocationFSM_1/D",
+          "D"
+        ]
+      },
+      "LocationFSM_1_SW": {
+        "ports": [
+          "LocationFSM_1/SW",
+          "SwordFSM_1/SW"
+        ]
+      },
+      "LocationFSM_1_WIN": {
+        "ports": [
+          "LocationFSM_1/WIN",
+          "WIN"
+        ]
+      },
+      "LocationFSM_1_q0": {
+        "ports": [
+          "LocationFSM_1/q0",
+          "q0"
+        ]
+      },
+      "LocationFSM_1_q1": {
+        "ports": [
+          "LocationFSM_1/q1",
+          "q1"
+        ]
+      },
+      "LocationFSM_1_q2": {
+        "ports": [
+          "LocationFSM_1/q2",
+          "q2"
+        ]
+      },
+      "LocationFSM_1_q3": {
+        "ports": [
+          "LocationFSM_1/q3",
+          "q3"
+        ]
+      },
+      "LocationFSM_1_q4": {
+        "ports": [
+          "LocationFSM_1/q4",
+          "q4"
+        ]
+      },
+      "LocationFSM_1_q5": {
+        "ports": [
+          "LocationFSM_1/q5",
+          "q5"
+        ]
+      },
+      "LocationFSM_1_q6": {
+        "ports": [
+          "LocationFSM_1/q6",
+          "q6"
+        ]
+      }
+    }
+  }
+}

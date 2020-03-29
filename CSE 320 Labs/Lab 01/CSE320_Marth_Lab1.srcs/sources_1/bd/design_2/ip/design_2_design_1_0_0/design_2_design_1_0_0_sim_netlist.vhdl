@@ -1,0 +1,281 @@
+-- Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+-- --------------------------------------------------------------------------------
+-- Tool Version: Vivado v.2019.2 (win64) Build 2708876 Wed Nov  6 21:40:23 MST 2019
+-- Date        : Sun Feb  9 11:27:06 2020
+-- Host        : LAPTOP-STEFAN running 64-bit major release  (build 9200)
+-- Command     : write_vhdl -force -mode funcsim {c:/Users/stefa/iCloudDrive/ASU/Spring
+--               2020/CSE_320/Labs_New/CSE320_Marth_Lab1/CSE320_Marth_Lab1.srcs/sources_1/bd/design_2/ip/design_2_design_1_0_0/design_2_design_1_0_0_sim_netlist.vhdl}
+-- Design      : design_2_design_1_0_0
+-- Purpose     : This VHDL netlist is a functional simulation representation of the design and should not be modified or
+--               synthesized. This netlist cannot be used for SDF annotated simulation.
+-- Device      : xc7a100tcsg324-1
+-- --------------------------------------------------------------------------------
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+library UNISIM;
+use UNISIM.VCOMPONENTS.ALL;
+entity design_2_design_1_0_0_design_1_xup_and2_0_0 is
+  port (
+    a : in STD_LOGIC;
+    b : in STD_LOGIC;
+    y : out STD_LOGIC
+  );
+  attribute CHECK_LICENSE_TYPE : string;
+  attribute CHECK_LICENSE_TYPE of design_2_design_1_0_0_design_1_xup_and2_0_0 : entity is "design_1_xup_and2_0_0,xup_and2,{}";
+  attribute DowngradeIPIdentifiedWarnings : string;
+  attribute DowngradeIPIdentifiedWarnings of design_2_design_1_0_0_design_1_xup_and2_0_0 : entity is "yes";
+  attribute ORIG_REF_NAME : string;
+  attribute ORIG_REF_NAME of design_2_design_1_0_0_design_1_xup_and2_0_0 : entity is "design_1_xup_and2_0_0";
+  attribute X_CORE_INFO : string;
+  attribute X_CORE_INFO of design_2_design_1_0_0_design_1_xup_and2_0_0 : entity is "xup_and2,Vivado 2019.2";
+end design_2_design_1_0_0_design_1_xup_and2_0_0;
+
+architecture STRUCTURE of design_2_design_1_0_0_design_1_xup_and2_0_0 is
+begin
+y_INST_0: unisim.vcomponents.LUT2
+    generic map(
+      INIT => X"8"
+    )
+        port map (
+      I0 => a,
+      I1 => b,
+      O => y
+    );
+end STRUCTURE;
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+library UNISIM;
+use UNISIM.VCOMPONENTS.ALL;
+entity design_2_design_1_0_0_design_1_xup_and2_1_0 is
+  port (
+    a : in STD_LOGIC;
+    b : in STD_LOGIC;
+    y : out STD_LOGIC
+  );
+  attribute CHECK_LICENSE_TYPE : string;
+  attribute CHECK_LICENSE_TYPE of design_2_design_1_0_0_design_1_xup_and2_1_0 : entity is "design_1_xup_and2_1_0,xup_and2,{}";
+  attribute DowngradeIPIdentifiedWarnings : string;
+  attribute DowngradeIPIdentifiedWarnings of design_2_design_1_0_0_design_1_xup_and2_1_0 : entity is "yes";
+  attribute ORIG_REF_NAME : string;
+  attribute ORIG_REF_NAME of design_2_design_1_0_0_design_1_xup_and2_1_0 : entity is "design_1_xup_and2_1_0";
+  attribute X_CORE_INFO : string;
+  attribute X_CORE_INFO of design_2_design_1_0_0_design_1_xup_and2_1_0 : entity is "xup_and2,Vivado 2019.2";
+end design_2_design_1_0_0_design_1_xup_and2_1_0;
+
+architecture STRUCTURE of design_2_design_1_0_0_design_1_xup_and2_1_0 is
+begin
+y_INST_0: unisim.vcomponents.LUT2
+    generic map(
+      INIT => X"8"
+    )
+        port map (
+      I0 => a,
+      I1 => b,
+      O => y
+    );
+end STRUCTURE;
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+library UNISIM;
+use UNISIM.VCOMPONENTS.ALL;
+entity design_2_design_1_0_0_design_1_xup_or2_0_0 is
+  port (
+    a : in STD_LOGIC;
+    b : in STD_LOGIC;
+    y : out STD_LOGIC
+  );
+  attribute CHECK_LICENSE_TYPE : string;
+  attribute CHECK_LICENSE_TYPE of design_2_design_1_0_0_design_1_xup_or2_0_0 : entity is "design_1_xup_or2_0_0,xup_or2,{}";
+  attribute DowngradeIPIdentifiedWarnings : string;
+  attribute DowngradeIPIdentifiedWarnings of design_2_design_1_0_0_design_1_xup_or2_0_0 : entity is "yes";
+  attribute ORIG_REF_NAME : string;
+  attribute ORIG_REF_NAME of design_2_design_1_0_0_design_1_xup_or2_0_0 : entity is "design_1_xup_or2_0_0";
+  attribute X_CORE_INFO : string;
+  attribute X_CORE_INFO of design_2_design_1_0_0_design_1_xup_or2_0_0 : entity is "xup_or2,Vivado 2019.2";
+end design_2_design_1_0_0_design_1_xup_or2_0_0;
+
+architecture STRUCTURE of design_2_design_1_0_0_design_1_xup_or2_0_0 is
+begin
+y_INST_0: unisim.vcomponents.LUT2
+    generic map(
+      INIT => X"E"
+    )
+        port map (
+      I0 => a,
+      I1 => b,
+      O => y
+    );
+end STRUCTURE;
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+library UNISIM;
+use UNISIM.VCOMPONENTS.ALL;
+entity design_2_design_1_0_0_design_1_xup_xor2_0_0 is
+  port (
+    a : in STD_LOGIC;
+    b : in STD_LOGIC;
+    y : out STD_LOGIC
+  );
+  attribute CHECK_LICENSE_TYPE : string;
+  attribute CHECK_LICENSE_TYPE of design_2_design_1_0_0_design_1_xup_xor2_0_0 : entity is "design_1_xup_xor2_0_0,xup_xor2,{}";
+  attribute DowngradeIPIdentifiedWarnings : string;
+  attribute DowngradeIPIdentifiedWarnings of design_2_design_1_0_0_design_1_xup_xor2_0_0 : entity is "yes";
+  attribute ORIG_REF_NAME : string;
+  attribute ORIG_REF_NAME of design_2_design_1_0_0_design_1_xup_xor2_0_0 : entity is "design_1_xup_xor2_0_0";
+  attribute X_CORE_INFO : string;
+  attribute X_CORE_INFO of design_2_design_1_0_0_design_1_xup_xor2_0_0 : entity is "xup_xor2,Vivado 2019.2";
+end design_2_design_1_0_0_design_1_xup_xor2_0_0;
+
+architecture STRUCTURE of design_2_design_1_0_0_design_1_xup_xor2_0_0 is
+begin
+y_INST_0: unisim.vcomponents.LUT2
+    generic map(
+      INIT => X"6"
+    )
+        port map (
+      I0 => b,
+      I1 => a,
+      O => y
+    );
+end STRUCTURE;
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+library UNISIM;
+use UNISIM.VCOMPONENTS.ALL;
+entity design_2_design_1_0_0_design_1_xup_xor2_1_0 is
+  port (
+    a : in STD_LOGIC;
+    b : in STD_LOGIC;
+    y : out STD_LOGIC
+  );
+  attribute CHECK_LICENSE_TYPE : string;
+  attribute CHECK_LICENSE_TYPE of design_2_design_1_0_0_design_1_xup_xor2_1_0 : entity is "design_1_xup_xor2_1_0,xup_xor2,{}";
+  attribute DowngradeIPIdentifiedWarnings : string;
+  attribute DowngradeIPIdentifiedWarnings of design_2_design_1_0_0_design_1_xup_xor2_1_0 : entity is "yes";
+  attribute ORIG_REF_NAME : string;
+  attribute ORIG_REF_NAME of design_2_design_1_0_0_design_1_xup_xor2_1_0 : entity is "design_1_xup_xor2_1_0";
+  attribute X_CORE_INFO : string;
+  attribute X_CORE_INFO of design_2_design_1_0_0_design_1_xup_xor2_1_0 : entity is "xup_xor2,Vivado 2019.2";
+end design_2_design_1_0_0_design_1_xup_xor2_1_0;
+
+architecture STRUCTURE of design_2_design_1_0_0_design_1_xup_xor2_1_0 is
+begin
+y_INST_0: unisim.vcomponents.LUT2
+    generic map(
+      INIT => X"6"
+    )
+        port map (
+      I0 => b,
+      I1 => a,
+      O => y
+    );
+end STRUCTURE;
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+library UNISIM;
+use UNISIM.VCOMPONENTS.ALL;
+entity design_2_design_1_0_0_design_1 is
+  port (
+    Cin : in STD_LOGIC;
+    Cout : out STD_LOGIC;
+    a : in STD_LOGIC;
+    b : in STD_LOGIC;
+    s : out STD_LOGIC
+  );
+  attribute HW_HANDOFF : string;
+  attribute HW_HANDOFF of design_2_design_1_0_0_design_1 : entity is "design_1.hwdef";
+  attribute ORIG_REF_NAME : string;
+  attribute ORIG_REF_NAME of design_2_design_1_0_0_design_1 : entity is "design_1";
+end design_2_design_1_0_0_design_1;
+
+architecture STRUCTURE of design_2_design_1_0_0_design_1 is
+  signal xup_and2_0_y : STD_LOGIC;
+  signal xup_and2_1_y : STD_LOGIC;
+  signal xup_xor2_0_y : STD_LOGIC;
+  attribute CHECK_LICENSE_TYPE : string;
+  attribute CHECK_LICENSE_TYPE of xup_and2_0 : label is "design_1_xup_and2_0_0,xup_and2,{}";
+  attribute DowngradeIPIdentifiedWarnings : string;
+  attribute DowngradeIPIdentifiedWarnings of xup_and2_0 : label is "yes";
+  attribute X_CORE_INFO : string;
+  attribute X_CORE_INFO of xup_and2_0 : label is "xup_and2,Vivado 2019.2";
+  attribute CHECK_LICENSE_TYPE of xup_and2_1 : label is "design_1_xup_and2_1_0,xup_and2,{}";
+  attribute DowngradeIPIdentifiedWarnings of xup_and2_1 : label is "yes";
+  attribute X_CORE_INFO of xup_and2_1 : label is "xup_and2,Vivado 2019.2";
+  attribute CHECK_LICENSE_TYPE of xup_or2_0 : label is "design_1_xup_or2_0_0,xup_or2,{}";
+  attribute DowngradeIPIdentifiedWarnings of xup_or2_0 : label is "yes";
+  attribute X_CORE_INFO of xup_or2_0 : label is "xup_or2,Vivado 2019.2";
+  attribute CHECK_LICENSE_TYPE of xup_xor2_0 : label is "design_1_xup_xor2_0_0,xup_xor2,{}";
+  attribute DowngradeIPIdentifiedWarnings of xup_xor2_0 : label is "yes";
+  attribute X_CORE_INFO of xup_xor2_0 : label is "xup_xor2,Vivado 2019.2";
+  attribute CHECK_LICENSE_TYPE of xup_xor2_1 : label is "design_1_xup_xor2_1_0,xup_xor2,{}";
+  attribute DowngradeIPIdentifiedWarnings of xup_xor2_1 : label is "yes";
+  attribute X_CORE_INFO of xup_xor2_1 : label is "xup_xor2,Vivado 2019.2";
+begin
+xup_and2_0: entity work.design_2_design_1_0_0_design_1_xup_and2_0_0
+     port map (
+      a => Cin,
+      b => xup_xor2_0_y,
+      y => xup_and2_0_y
+    );
+xup_and2_1: entity work.design_2_design_1_0_0_design_1_xup_and2_1_0
+     port map (
+      a => b,
+      b => a,
+      y => xup_and2_1_y
+    );
+xup_or2_0: entity work.design_2_design_1_0_0_design_1_xup_or2_0_0
+     port map (
+      a => xup_and2_0_y,
+      b => xup_and2_1_y,
+      y => Cout
+    );
+xup_xor2_0: entity work.design_2_design_1_0_0_design_1_xup_xor2_0_0
+     port map (
+      a => a,
+      b => b,
+      y => xup_xor2_0_y
+    );
+xup_xor2_1: entity work.design_2_design_1_0_0_design_1_xup_xor2_1_0
+     port map (
+      a => xup_xor2_0_y,
+      b => Cin,
+      y => s
+    );
+end STRUCTURE;
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+library UNISIM;
+use UNISIM.VCOMPONENTS.ALL;
+entity design_2_design_1_0_0 is
+  port (
+    Cin : in STD_LOGIC;
+    Cout : out STD_LOGIC;
+    a : in STD_LOGIC;
+    b : in STD_LOGIC;
+    s : out STD_LOGIC
+  );
+  attribute NotValidForBitStream : boolean;
+  attribute NotValidForBitStream of design_2_design_1_0_0 : entity is true;
+  attribute CHECK_LICENSE_TYPE : string;
+  attribute CHECK_LICENSE_TYPE of design_2_design_1_0_0 : entity is "design_2_design_1_0_0,design_1,{}";
+  attribute DowngradeIPIdentifiedWarnings : string;
+  attribute DowngradeIPIdentifiedWarnings of design_2_design_1_0_0 : entity is "yes";
+  attribute IP_DEFINITION_SOURCE : string;
+  attribute IP_DEFINITION_SOURCE of design_2_design_1_0_0 : entity is "IPI";
+  attribute X_CORE_INFO : string;
+  attribute X_CORE_INFO of design_2_design_1_0_0 : entity is "design_1,Vivado 2019.2";
+end design_2_design_1_0_0;
+
+architecture STRUCTURE of design_2_design_1_0_0 is
+  attribute HW_HANDOFF : string;
+  attribute HW_HANDOFF of inst : label is "design_1.hwdef";
+begin
+inst: entity work.design_2_design_1_0_0_design_1
+     port map (
+      Cin => Cin,
+      Cout => Cout,
+      a => a,
+      b => b,
+      s => s
+    );
+end STRUCTURE;

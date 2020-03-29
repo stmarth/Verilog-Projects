@@ -1,0 +1,71 @@
+Vivado Simulator 2019.2
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2019.2/bin/unwrapped/win64.o/xelab.exe -wto 514ad9c6146343e0aad0807c92b7c100 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot final_tb_behav xil_defaultlib.final_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.Edge_Detector
+Compiling module xil_defaultlib.design_1_Edge_Detector_0_0
+Compiling module xil_defaultlib.design_1_Edge_Detector_0_1
+Compiling module xil_defaultlib.design_1_Edge_Detector_0_2
+Compiling module xil_defaultlib.design_1_Edge_Detector_0_3
+Compiling module xil_defaultlib.xup_inv(DELAY=0)
+Compiling module xil_defaultlib.LocationFSM_xup_inv_0_2
+Compiling module xil_defaultlib.LocationFSM_xup_inv_0_0
+Compiling module xil_defaultlib.xup_dff_set
+Compiling module xil_defaultlib.LocationFSM_xup_dff_set_0_0
+Compiling module xil_defaultlib.xup_dff_reset
+Compiling module xil_defaultlib.LocationFSM_xup_dff_reset_0_0
+Compiling module xil_defaultlib.LocationFSM_Q1_0
+Compiling module xil_defaultlib.LocationFSM_Q1_1
+Compiling module xil_defaultlib.LocationFSM_Q1_2
+Compiling module xil_defaultlib.LocationFSM_Q1_3
+Compiling module xil_defaultlib.LocationFSM_Q1_4
+Compiling module xil_defaultlib.LocationFSM_xup_inv_0_1
+Compiling module xil_defaultlib.LocationFSM_xup_inv_0_4
+Compiling module xil_defaultlib.LocationFSM_xup_inv_0_3
+Compiling module xil_defaultlib.xup_and2(DELAY=0)
+Compiling module xil_defaultlib.LocationFSM_xup_and2_0_0
+Compiling module xil_defaultlib.LocationFSM_xup_and2_0_1
+Compiling module xil_defaultlib.LocationFSM_xup_and2_9_0
+Compiling module xil_defaultlib.LocationFSM_xup_and2_2_0
+Compiling module xil_defaultlib.LocationFSM_xup_and2_2_1
+Compiling module xil_defaultlib.LocationFSM_xup_and2_4_0
+Compiling module xil_defaultlib.LocationFSM_xup_and2_5_0
+Compiling module xil_defaultlib.LocationFSM_xup_and2_6_0
+Compiling module xil_defaultlib.LocationFSM_xup_and2_6_1
+Compiling module xil_defaultlib.LocationFSM_xup_and2_8_0
+Compiling module xil_defaultlib.LocationFSM_xup_and2_8_1
+Compiling module xil_defaultlib.xup_and3(DELAY=0)
+Compiling module xil_defaultlib.LocationFSM_xup_and3_0_0
+Compiling module xil_defaultlib.xup_and4
+Compiling module xil_defaultlib.LocationFSM_xup_and4_0_0
+Compiling module xil_defaultlib.xup_or2(DELAY=0)
+Compiling module xil_defaultlib.LocationFSM_xup_or2_0_0
+Compiling module xil_defaultlib.LocationFSM_xup_or2_1_0
+Compiling module xil_defaultlib.LocationFSM_xup_or2_2_0
+Compiling module xil_defaultlib.LocationFSM_xup_or2_2_1
+Compiling module xil_defaultlib.xup_or3(DELAY=0)
+Compiling module xil_defaultlib.LocationFSM_xup_or3_0_0
+Compiling module xil_defaultlib.LocationFSM_xup_or3_1_0
+Compiling module xil_defaultlib.LocationFSM
+Compiling module xil_defaultlib.design_1_LocationFSM_1_0
+Compiling module xil_defaultlib.SwordFSM_S0_0
+Compiling module xil_defaultlib.SwordFSM_S1_0
+Compiling module xil_defaultlib.SwordFSM_xup_and2_0_0
+Compiling module xil_defaultlib.SwordFSM_xup_and2_1_0
+Compiling module xil_defaultlib.SwordFSM_xup_and2_2_0
+Compiling module xil_defaultlib.SwordFSM_xup_inv_0_0
+Compiling module xil_defaultlib.SwordFSM_xup_inv_1_0
+Compiling module xil_defaultlib.SwordFSM_xup_or2_0_0
+Compiling module xil_defaultlib.SwordFSM
+Compiling module xil_defaultlib.design_1_SwordFSM_1_0
+Compiling module xil_defaultlib.design_1
+Compiling module xil_defaultlib.design_1_wrapper
+Compiling module xil_defaultlib.final_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot final_tb_behav

@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<Runs Version="1" Minor="0">
+	<Run Id="LocationFSM_xup_or2_0_0_synth_1" LaunchDir="C:/Users/stefa/iCloudDrive/ASU/Spring 2020/CSE_320/Labs_New/Lab3/CSE320-Marth-Lab3/CSE320-Marth-Lab3.runs/LocationFSM_xup_or2_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="LocationFSM_xup_or3_0_0_synth_1" LaunchDir="C:/Users/stefa/iCloudDrive/ASU/Spring 2020/CSE_320/Labs_New/Lab3/CSE320-Marth-Lab3/CSE320-Marth-Lab3.runs/LocationFSM_xup_or3_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="LocationFSM_xup_and4_0_0_synth_1" LaunchDir="C:/Users/stefa/iCloudDrive/ASU/Spring 2020/CSE_320/Labs_New/Lab3/CSE320-Marth-Lab3/CSE320-Marth-Lab3.runs/LocationFSM_xup_and4_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Parameters>
+		<Parameter Name="runs.monitorLSFJobs" Val="true" Type="bool"/>
+		<Parameter Name="runs.enableClusterConf" Val="true" Type="bool"/>
+	</Parameters>
+</Runs>
+

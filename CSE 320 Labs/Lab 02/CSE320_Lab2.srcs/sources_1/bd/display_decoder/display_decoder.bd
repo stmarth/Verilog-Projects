@@ -1,0 +1,273 @@
+{
+  "design": {
+    "design_info": {
+      "boundary_crc": "0x607B06B6FA70E69E",
+      "device": "xc7a100tcsg324-1",
+      "name": "display_decoder",
+      "synth_flow_mode": "Hierarchical",
+      "tool_version": "2019.2",
+      "validated": "true"
+    },
+    "design_tree": {
+      "segment_a_0": "",
+      "segment_b_0": "",
+      "segment_c_0": "",
+      "segment_d_0": "",
+      "segment_e_0": "",
+      "segment_f_0": "",
+      "segment_g_0": "",
+      "Segment_LED_Interface_0": ""
+    },
+    "ports": {
+      "A0": {
+        "direction": "O"
+      },
+      "A3": {
+        "direction": "O"
+      },
+      "A2": {
+        "direction": "O"
+      },
+      "A5": {
+        "direction": "O"
+      },
+      "A4": {
+        "direction": "O"
+      },
+      "A7": {
+        "direction": "O"
+      },
+      "A6": {
+        "direction": "O"
+      },
+      "A1": {
+        "direction": "O"
+      },
+      "clock": {
+        "type": "clk",
+        "direction": "I",
+        "parameters": {
+          "CLK_DOMAIN": {
+            "value": "display_decoder_clock_0",
+            "value_src": "default"
+          },
+          "FREQ_HZ": {
+            "value": "100000000",
+            "value_src": "default"
+          },
+          "INSERT_VIP": {
+            "value": "0",
+            "value_src": "default"
+          },
+          "PHASE": {
+            "value": "0.000",
+            "value_src": "default"
+          }
+        }
+      },
+      "cathode": {
+        "direction": "O",
+        "left": "6",
+        "right": "0"
+      },
+      "D0": {
+        "direction": "I"
+      },
+      "D1": {
+        "direction": "I"
+      },
+      "D2": {
+        "direction": "I"
+      },
+      "D3": {
+        "direction": "I"
+      }
+    },
+    "components": {
+      "segment_a_0": {
+        "vlnv": "xilinx.com:user:segment_a:1.0",
+        "xci_name": "display_decoder_segment_a_0_0"
+      },
+      "segment_b_0": {
+        "vlnv": "xilinx.com:user:segment_b:1.0",
+        "xci_name": "display_decoder_segment_b_0_0"
+      },
+      "segment_c_0": {
+        "vlnv": "xilinx.com:user:segment_c:1.0",
+        "xci_name": "display_decoder_segment_c_0_0"
+      },
+      "segment_d_0": {
+        "vlnv": "xilinx.com:user:segment_d:1.0",
+        "xci_name": "display_decoder_segment_d_0_0"
+      },
+      "segment_e_0": {
+        "vlnv": "xilinx.com:user:segment_e:1.0",
+        "xci_name": "display_decoder_segment_e_0_0"
+      },
+      "segment_f_0": {
+        "vlnv": "xilinx.com:user:segment_f:1.0",
+        "xci_name": "display_decoder_segment_f_0_0"
+      },
+      "segment_g_0": {
+        "vlnv": "xilinx.com:user:segment_g:1.0",
+        "xci_name": "display_decoder_segment_g_0_0"
+      },
+      "Segment_LED_Interface_0": {
+        "vlnv": "asu.edu:user:Segment_LED_Interface:1.0",
+        "xci_name": "display_decoder_Segment_LED_Interface_0_0"
+      }
+    },
+    "nets": {
+      "Segment_LED_Interface_0_A0": {
+        "ports": [
+          "Segment_LED_Interface_0/A0",
+          "A0"
+        ]
+      },
+      "Segment_LED_Interface_0_A3": {
+        "ports": [
+          "Segment_LED_Interface_0/A3",
+          "A3"
+        ]
+      },
+      "Segment_LED_Interface_0_A2": {
+        "ports": [
+          "Segment_LED_Interface_0/A2",
+          "A2"
+        ]
+      },
+      "Segment_LED_Interface_0_A5": {
+        "ports": [
+          "Segment_LED_Interface_0/A5",
+          "A5"
+        ]
+      },
+      "Segment_LED_Interface_0_A4": {
+        "ports": [
+          "Segment_LED_Interface_0/A4",
+          "A4"
+        ]
+      },
+      "Segment_LED_Interface_0_A7": {
+        "ports": [
+          "Segment_LED_Interface_0/A7",
+          "A7"
+        ]
+      },
+      "Segment_LED_Interface_0_A6": {
+        "ports": [
+          "Segment_LED_Interface_0/A6",
+          "A6"
+        ]
+      },
+      "Segment_LED_Interface_0_A1": {
+        "ports": [
+          "Segment_LED_Interface_0/A1",
+          "A1"
+        ]
+      },
+      "clock_0_1": {
+        "ports": [
+          "clock",
+          "Segment_LED_Interface_0/clock"
+        ]
+      },
+      "D1_0_1": {
+        "ports": [
+          "D1",
+          "segment_a_0/D1",
+          "segment_b_0/D1",
+          "segment_c_0/D1",
+          "segment_d_0/D1",
+          "segment_e_0/D1",
+          "segment_f_0/D1",
+          "segment_g_0/D1"
+        ]
+      },
+      "D0_0_1": {
+        "ports": [
+          "D0",
+          "segment_a_0/D0",
+          "segment_b_0/D0",
+          "segment_c_0/D0",
+          "segment_d_0/D0",
+          "segment_e_0/D0",
+          "segment_f_0/D0",
+          "segment_g_0/D0"
+        ]
+      },
+      "D2_0_1": {
+        "ports": [
+          "D2",
+          "segment_a_0/D2",
+          "segment_b_0/D2",
+          "segment_c_0/D2",
+          "segment_d_0/D2",
+          "segment_e_0/D2",
+          "segment_f_0/D2",
+          "segment_g_0/D2"
+        ]
+      },
+      "D3_0_1": {
+        "ports": [
+          "D3",
+          "segment_a_0/D3",
+          "segment_b_0/D3",
+          "segment_c_0/D3",
+          "segment_d_0/D3",
+          "segment_e_0/D3",
+          "segment_f_0/D3",
+          "segment_g_0/D3"
+        ]
+      },
+      "segment_a_0_S": {
+        "ports": [
+          "segment_a_0/S",
+          "Segment_LED_Interface_0/a"
+        ]
+      },
+      "segment_b_0_S": {
+        "ports": [
+          "segment_b_0/S",
+          "Segment_LED_Interface_0/b"
+        ]
+      },
+      "segment_c_0_S": {
+        "ports": [
+          "segment_c_0/S",
+          "Segment_LED_Interface_0/c"
+        ]
+      },
+      "segment_d_0_S": {
+        "ports": [
+          "segment_d_0/S",
+          "Segment_LED_Interface_0/d"
+        ]
+      },
+      "segment_e_0_S": {
+        "ports": [
+          "segment_e_0/S",
+          "Segment_LED_Interface_0/e"
+        ]
+      },
+      "segment_f_0_S": {
+        "ports": [
+          "segment_f_0/S",
+          "Segment_LED_Interface_0/f"
+        ]
+      },
+      "segment_g_0_S": {
+        "ports": [
+          "segment_g_0/S",
+          "Segment_LED_Interface_0/g"
+        ]
+      },
+      "Segment_LED_Interface_0_cathode": {
+        "ports": [
+          "Segment_LED_Interface_0/cathode",
+          "cathode"
+        ]
+      }
+    }
+  }
+}

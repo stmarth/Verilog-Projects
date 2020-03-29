@@ -1,0 +1,35 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"1.0",
+   "Default View_TopLeft":"-299,-172",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.0.21  2019-05-29 bk=1.5064 VDI=41 GEI=36 GUI=JA:9.0 non-TLS
+#  -string -flagsOSRD
+preplace port SW -pg 1 -lvl 0 -x 0 -y 380 -defaultsOSRD
+preplace port V -pg 1 -lvl 8 -x 1290 -y 290 -defaultsOSRD
+preplace port clock -pg 1 -lvl 0 -x 0 -y 80 -defaultsOSRD
+preplace port reset -pg 1 -lvl 0 -x 0 -y 100 -defaultsOSRD
+preplace inst S0 -pg 1 -lvl 3 -x 470 -y 80 -defaultsOSRD
+preplace inst S1 -pg 1 -lvl 6 -x 1000 -y 160 -defaultsOSRD
+preplace inst xup_and2_0 -pg 1 -lvl 2 -x 270 -y 450 -defaultsOSRD
+preplace inst xup_and2_1 -pg 1 -lvl 4 -x 650 -y 370 -defaultsOSRD
+preplace inst xup_and2_2 -pg 1 -lvl 7 -x 1180 -y 290 -defaultsOSRD
+preplace inst xup_inv_0 -pg 1 -lvl 1 -x 100 -y 460 -defaultsOSRD
+preplace inst xup_inv_1 -pg 1 -lvl 6 -x 1000 -y 300 -defaultsOSRD
+preplace inst xup_or2_0 -pg 1 -lvl 5 -x 830 -y 90 -defaultsOSRD
+preplace netloc Net 1 1 5 180 370 NJ 370 560 300 NJ 300 NJ
+preplace netloc S1_q 1 4 3 750 240 NJ 240 1090
+preplace netloc SW_1 1 0 4 20 380 NJ 380 NJ 380 NJ
+preplace netloc clk_0_1 1 0 6 NJ 80 NJ 80 380 160 NJ 160 NJ 160 NJ
+preplace netloc reset_0_1 1 0 6 NJ 100 NJ 100 360 180 NJ 180 NJ 180 NJ
+preplace netloc xup_and2_0_y 1 2 1 370 60n
+preplace netloc xup_and2_1_y 1 4 1 740 80n
+preplace netloc xup_and2_2_y 1 7 1 N 290
+preplace netloc xup_inv_0_y 1 1 1 NJ 460
+preplace netloc xup_inv_1_y 1 6 1 N 300
+preplace netloc xup_or2_0_y 1 5 1 910 90n
+levelinfo -pg 1 0 100 270 470 650 830 1000 1180 1290
+pagesize -pg 1 -db -bbox -sgen -90 0 1350 520
+"
+}
+0

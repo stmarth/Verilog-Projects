@@ -1,0 +1,18 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../CSE320_Lab2.ip_user_files/bd/segment_b/ipshared/b79c/xup_and3.srcs/sources_1/new/xup_and3.v" \
+"../../../../CSE320_Lab2.ip_user_files/bd/segment_b/ip/segment_b_xup_and3_0_0/sim/segment_b_xup_and3_0_0.v" \
+"../../../../CSE320_Lab2.ip_user_files/bd/segment_b/ip/segment_b_xup_and3_0_1/sim/segment_b_xup_and3_0_1.v" \
+"../../../../CSE320_Lab2.ip_user_files/bd/segment_b/ipshared/e3e7/xup_inv.srcs/sources_1/new/xup_inv.v" \
+"../../../../CSE320_Lab2.ip_user_files/bd/segment_b/ip/segment_b_xup_inv_0_0/sim/segment_b_xup_inv_0_0.v" \
+"../../../../CSE320_Lab2.ip_user_files/bd/segment_b/ip/segment_b_xup_inv_0_1/sim/segment_b_xup_inv_0_1.v" \
+"../../../../CSE320_Lab2.ip_user_files/bd/segment_b/ipshared/1ec9/xup_or2.srcs/sources_1/new/xup_or2.v" \
+"../../../../CSE320_Lab2.ip_user_files/bd/segment_b/ip/segment_b_xup_or2_0_0/sim/segment_b_xup_or2_0_0.v" \
+"../../../../CSE320_Lab2.ip_user_files/bd/segment_b/sim/segment_b.v" \
+"../../../../CSE320_Lab2.srcs/sources_1/bd/segment_b/hdl/segment_b_wrapper.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

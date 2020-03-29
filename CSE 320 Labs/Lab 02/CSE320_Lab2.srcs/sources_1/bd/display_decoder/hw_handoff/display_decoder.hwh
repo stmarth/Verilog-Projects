@@ -1,0 +1,448 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<EDKSYSTEM EDWVERSION="1.2" TIMESTAMP="Fri Feb 14 04:57:46 2020" VIVADOVERSION="2019.2">
+
+  <SYSTEMINFO ARCH="artix7" DEVICE="7a100t" NAME="display_decoder" PACKAGE="csg324" SPEEDGRADE="-1"/>
+
+  <EXTERNALPORTS>
+    <PORT DIR="O" NAME="A0" SIGIS="undef" SIGNAME="Segment_LED_Interface_0_A0">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="Segment_LED_Interface_0" PORT="A0"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" NAME="A3" SIGIS="undef" SIGNAME="Segment_LED_Interface_0_A3">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="Segment_LED_Interface_0" PORT="A3"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" NAME="A2" SIGIS="undef" SIGNAME="Segment_LED_Interface_0_A2">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="Segment_LED_Interface_0" PORT="A2"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" NAME="A5" SIGIS="undef" SIGNAME="Segment_LED_Interface_0_A5">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="Segment_LED_Interface_0" PORT="A5"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" NAME="A4" SIGIS="undef" SIGNAME="Segment_LED_Interface_0_A4">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="Segment_LED_Interface_0" PORT="A4"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" NAME="A7" SIGIS="undef" SIGNAME="Segment_LED_Interface_0_A7">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="Segment_LED_Interface_0" PORT="A7"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" NAME="A6" SIGIS="undef" SIGNAME="Segment_LED_Interface_0_A6">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="Segment_LED_Interface_0" PORT="A6"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" NAME="A1" SIGIS="undef" SIGNAME="Segment_LED_Interface_0_A1">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="Segment_LED_Interface_0" PORT="A1"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT CLKFREQUENCY="100000000" DIR="I" NAME="clock" SIGIS="clk" SIGNAME="External_Ports_clock">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="Segment_LED_Interface_0" PORT="clock"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" LEFT="6" NAME="cathode" RIGHT="0" SIGIS="undef" SIGNAME="Segment_LED_Interface_0_cathode">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="Segment_LED_Interface_0" PORT="cathode"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" NAME="D0" SIGIS="undef" SIGNAME="External_Ports_D0">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="segment_a_0" PORT="D0"/>
+        <CONNECTION INSTANCE="segment_b_0" PORT="D0"/>
+        <CONNECTION INSTANCE="segment_c_0" PORT="D0"/>
+        <CONNECTION INSTANCE="segment_d_0" PORT="D0"/>
+        <CONNECTION INSTANCE="segment_e_0" PORT="D0"/>
+        <CONNECTION INSTANCE="segment_f_0" PORT="D0"/>
+        <CONNECTION INSTANCE="segment_g_0" PORT="D0"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" NAME="D1" SIGIS="undef" SIGNAME="External_Ports_D1">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="segment_a_0" PORT="D1"/>
+        <CONNECTION INSTANCE="segment_b_0" PORT="D1"/>
+        <CONNECTION INSTANCE="segment_c_0" PORT="D1"/>
+        <CONNECTION INSTANCE="segment_d_0" PORT="D1"/>
+        <CONNECTION INSTANCE="segment_e_0" PORT="D1"/>
+        <CONNECTION INSTANCE="segment_f_0" PORT="D1"/>
+        <CONNECTION INSTANCE="segment_g_0" PORT="D1"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" NAME="D2" SIGIS="undef" SIGNAME="External_Ports_D2">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="segment_a_0" PORT="D2"/>
+        <CONNECTION INSTANCE="segment_b_0" PORT="D2"/>
+        <CONNECTION INSTANCE="segment_c_0" PORT="D2"/>
+        <CONNECTION INSTANCE="segment_d_0" PORT="D2"/>
+        <CONNECTION INSTANCE="segment_e_0" PORT="D2"/>
+        <CONNECTION INSTANCE="segment_f_0" PORT="D2"/>
+        <CONNECTION INSTANCE="segment_g_0" PORT="D2"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" NAME="D3" SIGIS="undef" SIGNAME="External_Ports_D3">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="segment_a_0" PORT="D3"/>
+        <CONNECTION INSTANCE="segment_b_0" PORT="D3"/>
+        <CONNECTION INSTANCE="segment_c_0" PORT="D3"/>
+        <CONNECTION INSTANCE="segment_d_0" PORT="D3"/>
+        <CONNECTION INSTANCE="segment_e_0" PORT="D3"/>
+        <CONNECTION INSTANCE="segment_f_0" PORT="D3"/>
+        <CONNECTION INSTANCE="segment_g_0" PORT="D3"/>
+      </CONNECTIONS>
+    </PORT>
+  </EXTERNALPORTS>
+
+  <EXTERNALINTERFACES/>
+
+  <MODULES>
+    <MODULE COREREVISION="1" FULLNAME="/Segment_LED_Interface_0" HWVERSION="1.0" INSTANCE="Segment_LED_Interface_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="Segment_LED_Interface" VLNV="asu.edu:user:Segment_LED_Interface:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="display_decoder_Segment_LED_Interface_0_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT CLKFREQUENCY="100000000" DIR="I" NAME="clock" SIGIS="clk" SIGNAME="External_Ports_clock">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="clock"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="segment_a_0_S">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="segment_a_0" PORT="S"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="b" SIGIS="undef" SIGNAME="segment_b_0_S">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="segment_b_0" PORT="S"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="c" SIGIS="undef" SIGNAME="segment_c_0_S">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="segment_c_0" PORT="S"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="d" SIGIS="undef" SIGNAME="segment_d_0_S">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="segment_d_0" PORT="S"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="e" SIGIS="undef" SIGNAME="segment_e_0_S">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="segment_e_0" PORT="S"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="f" SIGIS="undef" SIGNAME="segment_f_0_S">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="segment_f_0" PORT="S"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="g" SIGIS="undef" SIGNAME="segment_g_0_S">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="segment_g_0" PORT="S"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="A0" SIGIS="undef" SIGNAME="Segment_LED_Interface_0_A0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="A0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="A1" SIGIS="undef" SIGNAME="Segment_LED_Interface_0_A1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="A1"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="A2" SIGIS="undef" SIGNAME="Segment_LED_Interface_0_A2">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="A2"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="A3" SIGIS="undef" SIGNAME="Segment_LED_Interface_0_A3">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="A3"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="A4" SIGIS="undef" SIGNAME="Segment_LED_Interface_0_A4">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="A4"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="A5" SIGIS="undef" SIGNAME="Segment_LED_Interface_0_A5">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="A5"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="A6" SIGIS="undef" SIGNAME="Segment_LED_Interface_0_A6">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="A6"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="A7" SIGIS="undef" SIGNAME="Segment_LED_Interface_0_A7">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="A7"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="6" NAME="cathode" RIGHT="0" SIGIS="undef" SIGNAME="Segment_LED_Interface_0_cathode">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="cathode"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="2" FULLNAME="/segment_a_0" HWVERSION="1.0" INSTANCE="segment_a_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="segment_a" VLNV="xilinx.com:user:segment_a:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="display_decoder_segment_a_0_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="D0" SIGIS="undef" SIGNAME="External_Ports_D0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="D0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="D1" SIGIS="undef" SIGNAME="External_Ports_D1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="D1"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="D2" SIGIS="undef" SIGNAME="External_Ports_D2">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="D2"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="D3" SIGIS="undef" SIGNAME="External_Ports_D3">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="D3"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="S" SIGIS="undef" SIGNAME="segment_a_0_S">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Segment_LED_Interface_0" PORT="a"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="2" FULLNAME="/segment_b_0" HWVERSION="1.0" INSTANCE="segment_b_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="segment_b" VLNV="xilinx.com:user:segment_b:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="display_decoder_segment_b_0_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="D0" SIGIS="undef" SIGNAME="External_Ports_D0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="D0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="D1" SIGIS="undef" SIGNAME="External_Ports_D1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="D1"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="D2" SIGIS="undef" SIGNAME="External_Ports_D2">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="D2"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="D3" SIGIS="undef" SIGNAME="External_Ports_D3">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="D3"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="S" SIGIS="undef" SIGNAME="segment_b_0_S">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Segment_LED_Interface_0" PORT="b"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="2" FULLNAME="/segment_c_0" HWVERSION="1.0" INSTANCE="segment_c_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="segment_c" VLNV="xilinx.com:user:segment_c:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="display_decoder_segment_c_0_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="D0" SIGIS="undef" SIGNAME="External_Ports_D0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="D0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="D1" SIGIS="undef" SIGNAME="External_Ports_D1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="D1"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="D2" SIGIS="undef" SIGNAME="External_Ports_D2">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="D2"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="D3" SIGIS="undef" SIGNAME="External_Ports_D3">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="D3"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="S" SIGIS="undef" SIGNAME="segment_c_0_S">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Segment_LED_Interface_0" PORT="c"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="2" FULLNAME="/segment_d_0" HWVERSION="1.0" INSTANCE="segment_d_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="segment_d" VLNV="xilinx.com:user:segment_d:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="display_decoder_segment_d_0_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="D0" SIGIS="undef" SIGNAME="External_Ports_D0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="D0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="D1" SIGIS="undef" SIGNAME="External_Ports_D1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="D1"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="D2" SIGIS="undef" SIGNAME="External_Ports_D2">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="D2"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="D3" SIGIS="undef" SIGNAME="External_Ports_D3">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="D3"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="S" SIGIS="undef" SIGNAME="segment_d_0_S">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Segment_LED_Interface_0" PORT="d"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="2" FULLNAME="/segment_e_0" HWVERSION="1.0" INSTANCE="segment_e_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="segment_e" VLNV="xilinx.com:user:segment_e:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="display_decoder_segment_e_0_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="D0" SIGIS="undef" SIGNAME="External_Ports_D0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="D0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="D1" SIGIS="undef" SIGNAME="External_Ports_D1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="D1"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="D2" SIGIS="undef" SIGNAME="External_Ports_D2">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="D2"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="D3" SIGIS="undef" SIGNAME="External_Ports_D3">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="D3"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="S" SIGIS="undef" SIGNAME="segment_e_0_S">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Segment_LED_Interface_0" PORT="e"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="2" FULLNAME="/segment_f_0" HWVERSION="1.0" INSTANCE="segment_f_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="segment_f" VLNV="xilinx.com:user:segment_f:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="display_decoder_segment_f_0_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="D0" SIGIS="undef" SIGNAME="External_Ports_D0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="D0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="D1" SIGIS="undef" SIGNAME="External_Ports_D1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="D1"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="D2" SIGIS="undef" SIGNAME="External_Ports_D2">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="D2"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="D3" SIGIS="undef" SIGNAME="External_Ports_D3">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="D3"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="S" SIGIS="undef" SIGNAME="segment_f_0_S">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Segment_LED_Interface_0" PORT="f"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="2" FULLNAME="/segment_g_0" HWVERSION="1.0" INSTANCE="segment_g_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="segment_g" VLNV="xilinx.com:user:segment_g:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="display_decoder_segment_g_0_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="D0" SIGIS="undef" SIGNAME="External_Ports_D0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="D0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="D1" SIGIS="undef" SIGNAME="External_Ports_D1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="D1"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="D2" SIGIS="undef" SIGNAME="External_Ports_D2">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="D2"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="D3" SIGIS="undef" SIGNAME="External_Ports_D3">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="D3"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="S" SIGIS="undef" SIGNAME="segment_g_0_S">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Segment_LED_Interface_0" PORT="g"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+  </MODULES>
+
+</EDKSYSTEM>

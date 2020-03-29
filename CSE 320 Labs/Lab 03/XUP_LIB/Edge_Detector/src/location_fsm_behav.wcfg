@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="final_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="final_tb" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="9" />
+   <wvobject db_ref_id="1" fp_name="/final_tb/clock" type="logic">
+      <obj_property name="ElementShortName">clock</obj_property>
+      <obj_property name="ObjectShortName">clock</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/final_tb/reset" type="logic">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/final_tb/N" type="logic">
+      <obj_property name="ElementShortName">N</obj_property>
+      <obj_property name="ObjectShortName">N</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/final_tb/S" type="logic">
+      <obj_property name="ElementShortName">S</obj_property>
+      <obj_property name="ObjectShortName">S</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/final_tb/E" type="logic">
+      <obj_property name="ElementShortName">E</obj_property>
+      <obj_property name="ObjectShortName">E</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/final_tb/W" type="logic">
+      <obj_property name="ElementShortName">W</obj_property>
+      <obj_property name="ObjectShortName">W</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/final_tb/Location" type="array">
+      <obj_property name="ElementShortName">Location[2:0]</obj_property>
+      <obj_property name="ObjectShortName">Location[2:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/final_tb/D" type="logic">
+      <obj_property name="ElementShortName">D</obj_property>
+      <obj_property name="ObjectShortName">D</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/final_tb/WIN" type="logic">
+      <obj_property name="ElementShortName">WIN</obj_property>
+      <obj_property name="ObjectShortName">WIN</obj_property>
+   </wvobject>
+</wave_config>

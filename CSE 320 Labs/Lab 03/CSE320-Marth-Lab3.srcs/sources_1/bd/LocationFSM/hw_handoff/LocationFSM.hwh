@@ -1,0 +1,981 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<EDKSYSTEM EDWVERSION="1.2" TIMESTAMP="Wed Mar 18 14:10:56 2020" VIVADOVERSION="2019.2">
+
+  <SYSTEMINFO ARCH="artix7" DEVICE="7a100t" NAME="LocationFSM" PACKAGE="csg324" SPEEDGRADE="-1"/>
+
+  <EXTERNALPORTS>
+    <PORT DIR="I" NAME="N" SIGIS="undef" SIGNAME="External_Ports_N">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="N_inv" PORT="a"/>
+        <CONNECTION INSTANCE="xup_and2_3" PORT="b"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" NAME="S" SIGIS="undef" SIGNAME="External_Ports_S">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="S_inv" PORT="a"/>
+        <CONNECTION INSTANCE="xup_and2_4" PORT="b"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" NAME="E" SIGIS="undef" SIGNAME="External_Ports_E">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="E_inv" PORT="a"/>
+        <CONNECTION INSTANCE="xup_and2_2" PORT="b"/>
+        <CONNECTION INSTANCE="xup_and2_5" PORT="b"/>
+        <CONNECTION INSTANCE="xup_and2_8" PORT="b"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" NAME="W" SIGIS="undef" SIGNAME="External_Ports_W">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="W_inv" PORT="a"/>
+        <CONNECTION INSTANCE="xup_and2_1" PORT="b"/>
+        <CONNECTION INSTANCE="xup_and2_6" PORT="b"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" NAME="V" SIGIS="undef" SIGNAME="External_Ports_V">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="V_inv" PORT="a"/>
+        <CONNECTION INSTANCE="xup_and2_10" PORT="b"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" NAME="clock" SIGIS="undef" SIGNAME="External_Ports_clock">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="S0" PORT="clk"/>
+        <CONNECTION INSTANCE="S1" PORT="clk"/>
+        <CONNECTION INSTANCE="S2" PORT="clk"/>
+        <CONNECTION INSTANCE="S3" PORT="clk"/>
+        <CONNECTION INSTANCE="S4" PORT="clk"/>
+        <CONNECTION INSTANCE="S5" PORT="clk"/>
+        <CONNECTION INSTANCE="S6" PORT="clk"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" NAME="reset" SIGIS="undef" SIGNAME="External_Ports_reset">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="S6" PORT="reset"/>
+        <CONNECTION INSTANCE="S5" PORT="reset"/>
+        <CONNECTION INSTANCE="S4" PORT="reset"/>
+        <CONNECTION INSTANCE="S3" PORT="reset"/>
+        <CONNECTION INSTANCE="S2" PORT="reset"/>
+        <CONNECTION INSTANCE="S1" PORT="reset"/>
+        <CONNECTION INSTANCE="S0" PORT="reset"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" NAME="q5" SIGIS="undef" SIGNAME="S5_q">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="S5" PORT="q"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" NAME="q4" SIGIS="undef" SIGNAME="S4_q">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="S4" PORT="q"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" NAME="q3" SIGIS="undef" SIGNAME="S3_q">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="S3" PORT="q"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" NAME="q2" SIGIS="undef" SIGNAME="S2_q">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="S2" PORT="q"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" NAME="q1" SIGIS="undef" SIGNAME="S1_q">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="S1" PORT="q"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" NAME="q0" SIGIS="undef" SIGNAME="S0_q">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="S0" PORT="q"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" NAME="q6" SIGIS="undef" SIGNAME="S6_q">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="S6" PORT="q"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" NAME="D" SIGIS="undef" SIGNAME="S5_q">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="S5" PORT="q"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" NAME="SW" SIGIS="undef" SIGNAME="S3_q">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="S3" PORT="q"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" NAME="WIN" SIGIS="undef" SIGNAME="S6_q">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="S6" PORT="q"/>
+      </CONNECTIONS>
+    </PORT>
+  </EXTERNALPORTS>
+
+  <EXTERNALINTERFACES/>
+
+  <MODULES>
+    <MODULE COREREVISION="1" FULLNAME="/E_inv" HWVERSION="1.0" INSTANCE="E_inv" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_inv" VLNV="xilinx.com:xup:xup_inv:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="DELAY" VALUE="0.3"/>
+        <PARAMETER NAME="Component_Name" VALUE="LocationFSM_xup_inv_0_2"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="External_Ports_E">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="E"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="y" SIGIS="undef" SIGNAME="E_inv_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="xup_and2_0" PORT="b"/>
+            <CONNECTION INSTANCE="xup_and4_0" PORT="c"/>
+            <CONNECTION INSTANCE="xup_and2_7" PORT="b"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/N_inv" HWVERSION="1.0" INSTANCE="N_inv" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_inv" VLNV="xilinx.com:xup:xup_inv:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="DELAY" VALUE="0.3"/>
+        <PARAMETER NAME="Component_Name" VALUE="LocationFSM_xup_inv_0_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="External_Ports_N">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="N"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="y" SIGIS="undef" SIGNAME="N_inv_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="xup_and4_0" PORT="b"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="2" FULLNAME="/S0" HWVERSION="1.0" INSTANCE="S0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_dff_set" VLNV="xilinx.com:user:xup_dff_set:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="DELAY" VALUE="3"/>
+        <PARAMETER NAME="Component_Name" VALUE="LocationFSM_xup_dff_set_0_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="d" SIGIS="undef" SIGNAME="xup_or2_0_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="xup_or2_0" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT CLKFREQUENCY="100000000" DIR="I" NAME="clk" SIGIS="clk" SIGNAME="External_Ports_clock">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="clock"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="reset" SIGIS="rst" SIGNAME="External_Ports_reset">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="reset"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="q" SIGIS="undef" SIGNAME="S0_q">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="q0"/>
+            <CONNECTION INSTANCE="xup_and2_0" PORT="a"/>
+            <CONNECTION INSTANCE="xup_and2_2" PORT="a"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="2" FULLNAME="/S1" HWVERSION="1.0" INSTANCE="S1" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_dff_reset" VLNV="xilinx.com:user:xup_dff_reset:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="DELAY" VALUE="3"/>
+        <PARAMETER NAME="Component_Name" VALUE="LocationFSM_xup_dff_reset_0_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="d" SIGIS="undef" SIGNAME="xup_or3_0_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="xup_or3_0" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT CLKFREQUENCY="100000000" DIR="I" NAME="clk" SIGIS="clk" SIGNAME="External_Ports_clock">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="clock"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="reset" SIGIS="rst" SIGNAME="External_Ports_reset">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="reset"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="q" SIGIS="undef" SIGNAME="S1_q">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="q1"/>
+            <CONNECTION INSTANCE="xup_and2_1" PORT="a"/>
+            <CONNECTION INSTANCE="xup_and3_0" PORT="a"/>
+            <CONNECTION INSTANCE="xup_and2_4" PORT="a"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="2" FULLNAME="/S2" HWVERSION="1.0" INSTANCE="S2" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_dff_reset" VLNV="xilinx.com:user:xup_dff_reset:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="DELAY" VALUE="3"/>
+        <PARAMETER NAME="Component_Name" VALUE="LocationFSM_Q1_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="d" SIGIS="undef" SIGNAME="xup_or3_1_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="xup_or3_1" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT CLKFREQUENCY="100000000" DIR="I" NAME="clk" SIGIS="clk" SIGNAME="External_Ports_clock">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="clock"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="reset" SIGIS="rst" SIGNAME="External_Ports_reset">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="reset"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="q" SIGIS="undef" SIGNAME="S2_q">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="q2"/>
+            <CONNECTION INSTANCE="xup_and2_3" PORT="a"/>
+            <CONNECTION INSTANCE="xup_and4_0" PORT="a"/>
+            <CONNECTION INSTANCE="xup_and2_6" PORT="a"/>
+            <CONNECTION INSTANCE="xup_and2_8" PORT="a"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="2" FULLNAME="/S3" HWVERSION="1.0" INSTANCE="S3" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_dff_reset" VLNV="xilinx.com:user:xup_dff_reset:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="DELAY" VALUE="3"/>
+        <PARAMETER NAME="Component_Name" VALUE="LocationFSM_Q1_1"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="d" SIGIS="undef" SIGNAME="xup_or2_1_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="xup_or2_1" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT CLKFREQUENCY="100000000" DIR="I" NAME="clk" SIGIS="clk" SIGNAME="External_Ports_clock">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="clock"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="reset" SIGIS="rst" SIGNAME="External_Ports_reset">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="reset"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="q" SIGIS="undef" SIGNAME="S3_q">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="q3"/>
+            <CONNECTION INSTANCE="xup_and2_5" PORT="a"/>
+            <CONNECTION INSTANCE="xup_and2_7" PORT="a"/>
+            <CONNECTION INSTANCE="External_Ports" PORT="SW"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="2" FULLNAME="/S4" HWVERSION="1.0" INSTANCE="S4" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_dff_reset" VLNV="xilinx.com:user:xup_dff_reset:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="DELAY" VALUE="3"/>
+        <PARAMETER NAME="Component_Name" VALUE="LocationFSM_Q1_2"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="d" SIGIS="undef" SIGNAME="xup_and2_8_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="xup_and2_8" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT CLKFREQUENCY="100000000" DIR="I" NAME="clk" SIGIS="clk" SIGNAME="External_Ports_clock">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="clock"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="reset" SIGIS="rst" SIGNAME="External_Ports_reset">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="reset"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="q" SIGIS="undef" SIGNAME="S4_q">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="q4"/>
+            <CONNECTION INSTANCE="xup_and2_9" PORT="a"/>
+            <CONNECTION INSTANCE="xup_and2_10" PORT="a"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="2" FULLNAME="/S5" HWVERSION="1.0" INSTANCE="S5" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_dff_reset" VLNV="xilinx.com:user:xup_dff_reset:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="DELAY" VALUE="3"/>
+        <PARAMETER NAME="Component_Name" VALUE="LocationFSM_Q1_3"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="d" SIGIS="undef" SIGNAME="xup_or2_2_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="xup_or2_2" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT CLKFREQUENCY="100000000" DIR="I" NAME="clk" SIGIS="clk" SIGNAME="External_Ports_clock">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="clock"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="reset" SIGIS="rst" SIGNAME="External_Ports_reset">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="reset"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="q" SIGIS="undef" SIGNAME="S5_q">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="q5"/>
+            <CONNECTION INSTANCE="xup_or2_2" PORT="a"/>
+            <CONNECTION INSTANCE="External_Ports" PORT="D"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="2" FULLNAME="/S6" HWVERSION="1.0" INSTANCE="S6" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_dff_reset" VLNV="xilinx.com:user:xup_dff_reset:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="DELAY" VALUE="3"/>
+        <PARAMETER NAME="Component_Name" VALUE="LocationFSM_Q1_4"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="d" SIGIS="undef" SIGNAME="xup_or2_3_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="xup_or2_3" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT CLKFREQUENCY="100000000" DIR="I" NAME="clk" SIGIS="clk" SIGNAME="External_Ports_clock">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="clock"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="reset" SIGIS="rst" SIGNAME="External_Ports_reset">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="reset"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="q" SIGIS="undef" SIGNAME="S6_q">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="q6"/>
+            <CONNECTION INSTANCE="xup_or2_3" PORT="a"/>
+            <CONNECTION INSTANCE="External_Ports" PORT="WIN"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/S_inv" HWVERSION="1.0" INSTANCE="S_inv" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_inv" VLNV="xilinx.com:xup:xup_inv:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="DELAY" VALUE="0.3"/>
+        <PARAMETER NAME="Component_Name" VALUE="LocationFSM_xup_inv_0_1"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="External_Ports_S">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="S"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="y" SIGIS="undef" SIGNAME="S_inv_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="xup_and3_0" PORT="b"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/V_inv" HWVERSION="1.0" INSTANCE="V_inv" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_inv" VLNV="xilinx.com:xup:xup_inv:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="DELAY" VALUE="0.3"/>
+        <PARAMETER NAME="Component_Name" VALUE="LocationFSM_xup_inv_0_4"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="External_Ports_V">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="V"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="y" SIGIS="undef" SIGNAME="V_inv_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="xup_and2_9" PORT="b"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/W_inv" HWVERSION="1.0" INSTANCE="W_inv" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_inv" VLNV="xilinx.com:xup:xup_inv:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="DELAY" VALUE="0.3"/>
+        <PARAMETER NAME="Component_Name" VALUE="LocationFSM_xup_inv_0_3"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="External_Ports_W">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="W"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="y" SIGIS="undef" SIGNAME="W_inv_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="xup_and3_0" PORT="c"/>
+            <CONNECTION INSTANCE="xup_and4_0" PORT="d"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/xup_and2_0" HWVERSION="1.0" INSTANCE="xup_and2_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_and2" VLNV="xilinx.com:xup:xup_and2:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="DELAY" VALUE="0.3"/>
+        <PARAMETER NAME="Component_Name" VALUE="LocationFSM_xup_and2_0_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="S0_q">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="S0" PORT="q"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="b" SIGIS="undef" SIGNAME="E_inv_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="E_inv" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="y" SIGIS="undef" SIGNAME="xup_and2_0_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="xup_or2_0" PORT="a"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/xup_and2_1" HWVERSION="1.0" INSTANCE="xup_and2_1" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_and2" VLNV="xilinx.com:xup:xup_and2:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="DELAY" VALUE="0.3"/>
+        <PARAMETER NAME="Component_Name" VALUE="LocationFSM_xup_and2_0_1"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="S1_q">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="S1" PORT="q"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="b" SIGIS="undef" SIGNAME="External_Ports_W">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="W"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="y" SIGIS="undef" SIGNAME="xup_and2_1_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="xup_or2_0" PORT="b"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/xup_and2_10" HWVERSION="1.0" INSTANCE="xup_and2_10" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_and2" VLNV="xilinx.com:xup:xup_and2:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="DELAY" VALUE="0.3"/>
+        <PARAMETER NAME="Component_Name" VALUE="LocationFSM_xup_and2_9_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="S4_q">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="S4" PORT="q"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="b" SIGIS="undef" SIGNAME="External_Ports_V">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="V"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="y" SIGIS="undef" SIGNAME="xup_and2_10_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="xup_or2_3" PORT="b"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/xup_and2_2" HWVERSION="1.0" INSTANCE="xup_and2_2" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_and2" VLNV="xilinx.com:xup:xup_and2:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="DELAY" VALUE="0.3"/>
+        <PARAMETER NAME="Component_Name" VALUE="LocationFSM_xup_and2_2_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="S0_q">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="S0" PORT="q"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="b" SIGIS="undef" SIGNAME="External_Ports_E">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="E"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="y" SIGIS="undef" SIGNAME="xup_and2_2_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="xup_or3_0" PORT="a"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/xup_and2_3" HWVERSION="1.0" INSTANCE="xup_and2_3" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_and2" VLNV="xilinx.com:xup:xup_and2:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="DELAY" VALUE="0.3"/>
+        <PARAMETER NAME="Component_Name" VALUE="LocationFSM_xup_and2_2_1"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="S2_q">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="S2" PORT="q"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="b" SIGIS="undef" SIGNAME="External_Ports_N">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="N"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="y" SIGIS="undef" SIGNAME="xup_and2_3_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="xup_or3_0" PORT="c"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/xup_and2_4" HWVERSION="1.0" INSTANCE="xup_and2_4" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_and2" VLNV="xilinx.com:xup:xup_and2:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="DELAY" VALUE="0.3"/>
+        <PARAMETER NAME="Component_Name" VALUE="LocationFSM_xup_and2_4_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="S1_q">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="S1" PORT="q"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="b" SIGIS="undef" SIGNAME="External_Ports_S">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="S"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="y" SIGIS="undef" SIGNAME="xup_and2_4_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="xup_or3_1" PORT="a"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/xup_and2_5" HWVERSION="1.0" INSTANCE="xup_and2_5" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_and2" VLNV="xilinx.com:xup:xup_and2:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="DELAY" VALUE="0.3"/>
+        <PARAMETER NAME="Component_Name" VALUE="LocationFSM_xup_and2_5_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="S3_q">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="S3" PORT="q"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="b" SIGIS="undef" SIGNAME="External_Ports_E">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="E"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="y" SIGIS="undef" SIGNAME="xup_and2_5_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="xup_or3_1" PORT="c"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/xup_and2_6" HWVERSION="1.0" INSTANCE="xup_and2_6" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_and2" VLNV="xilinx.com:xup:xup_and2:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="DELAY" VALUE="0.3"/>
+        <PARAMETER NAME="Component_Name" VALUE="LocationFSM_xup_and2_6_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="S2_q">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="S2" PORT="q"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="b" SIGIS="undef" SIGNAME="External_Ports_W">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="W"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="y" SIGIS="undef" SIGNAME="xup_and2_6_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="xup_or2_1" PORT="a"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/xup_and2_7" HWVERSION="1.0" INSTANCE="xup_and2_7" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_and2" VLNV="xilinx.com:xup:xup_and2:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="DELAY" VALUE="0.3"/>
+        <PARAMETER NAME="Component_Name" VALUE="LocationFSM_xup_and2_6_1"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="S3_q">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="S3" PORT="q"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="b" SIGIS="undef" SIGNAME="E_inv_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="E_inv" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="y" SIGIS="undef" SIGNAME="xup_and2_7_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="xup_or2_1" PORT="b"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/xup_and2_8" HWVERSION="1.0" INSTANCE="xup_and2_8" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_and2" VLNV="xilinx.com:xup:xup_and2:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="DELAY" VALUE="0.3"/>
+        <PARAMETER NAME="Component_Name" VALUE="LocationFSM_xup_and2_8_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="S2_q">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="S2" PORT="q"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="b" SIGIS="undef" SIGNAME="External_Ports_E">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="E"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="y" SIGIS="undef" SIGNAME="xup_and2_8_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="S4" PORT="d"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/xup_and2_9" HWVERSION="1.0" INSTANCE="xup_and2_9" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_and2" VLNV="xilinx.com:xup:xup_and2:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="DELAY" VALUE="0.3"/>
+        <PARAMETER NAME="Component_Name" VALUE="LocationFSM_xup_and2_8_1"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="S4_q">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="S4" PORT="q"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="b" SIGIS="undef" SIGNAME="V_inv_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="V_inv" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="y" SIGIS="undef" SIGNAME="xup_and2_9_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="xup_or2_2" PORT="b"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/xup_and3_0" HWVERSION="1.0" INSTANCE="xup_and3_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_and3" VLNV="xilinx.com:xup:xup_and3:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="DELAY" VALUE="0.3"/>
+        <PARAMETER NAME="Component_Name" VALUE="LocationFSM_xup_and3_0_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="S1_q">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="S1" PORT="q"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="b" SIGIS="undef" SIGNAME="S_inv_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="S_inv" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="c" SIGIS="undef" SIGNAME="W_inv_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="W_inv" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="y" SIGIS="undef" SIGNAME="xup_and3_0_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="xup_or3_0" PORT="b"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/xup_and4_0" HWVERSION="1.0" INSTANCE="xup_and4_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_and4" VLNV="xilinx.com:xup:xup_and4:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="DELAY" VALUE="3"/>
+        <PARAMETER NAME="Component_Name" VALUE="LocationFSM_xup_and4_0_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="S2_q">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="S2" PORT="q"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="b" SIGIS="undef" SIGNAME="N_inv_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="N_inv" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="c" SIGIS="undef" SIGNAME="E_inv_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="E_inv" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="d" SIGIS="undef" SIGNAME="W_inv_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="W_inv" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="y" SIGIS="undef" SIGNAME="xup_and4_0_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="xup_or3_1" PORT="b"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/xup_or2_0" HWVERSION="1.0" INSTANCE="xup_or2_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_or2" VLNV="xilinx.com:xup:xup_or2:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="DELAY" VALUE="0.3"/>
+        <PARAMETER NAME="Component_Name" VALUE="LocationFSM_xup_or2_0_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="xup_and2_0_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="xup_and2_0" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="b" SIGIS="undef" SIGNAME="xup_and2_1_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="xup_and2_1" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="y" SIGIS="undef" SIGNAME="xup_or2_0_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="S0" PORT="d"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/xup_or2_1" HWVERSION="1.0" INSTANCE="xup_or2_1" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_or2" VLNV="xilinx.com:xup:xup_or2:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="DELAY" VALUE="0.3"/>
+        <PARAMETER NAME="Component_Name" VALUE="LocationFSM_xup_or2_1_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="xup_and2_6_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="xup_and2_6" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="b" SIGIS="undef" SIGNAME="xup_and2_7_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="xup_and2_7" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="y" SIGIS="undef" SIGNAME="xup_or2_1_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="S3" PORT="d"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/xup_or2_2" HWVERSION="1.0" INSTANCE="xup_or2_2" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_or2" VLNV="xilinx.com:xup:xup_or2:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="DELAY" VALUE="0.3"/>
+        <PARAMETER NAME="Component_Name" VALUE="LocationFSM_xup_or2_2_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="S5_q">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="S5" PORT="q"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="b" SIGIS="undef" SIGNAME="xup_and2_9_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="xup_and2_9" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="y" SIGIS="undef" SIGNAME="xup_or2_2_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="S5" PORT="d"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/xup_or2_3" HWVERSION="1.0" INSTANCE="xup_or2_3" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_or2" VLNV="xilinx.com:xup:xup_or2:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="DELAY" VALUE="0.3"/>
+        <PARAMETER NAME="Component_Name" VALUE="LocationFSM_xup_or2_2_1"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="S6_q">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="S6" PORT="q"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="b" SIGIS="undef" SIGNAME="xup_and2_10_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="xup_and2_10" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="y" SIGIS="undef" SIGNAME="xup_or2_3_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="S6" PORT="d"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/xup_or3_0" HWVERSION="1.0" INSTANCE="xup_or3_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_or3" VLNV="xilinx.com:xup:xup_or3:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="DELAY" VALUE="0.3"/>
+        <PARAMETER NAME="Component_Name" VALUE="LocationFSM_xup_or3_0_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="xup_and2_2_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="xup_and2_2" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="b" SIGIS="undef" SIGNAME="xup_and3_0_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="xup_and3_0" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="c" SIGIS="undef" SIGNAME="xup_and2_3_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="xup_and2_3" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="y" SIGIS="undef" SIGNAME="xup_or3_0_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="S1" PORT="d"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/xup_or3_1" HWVERSION="1.0" INSTANCE="xup_or3_1" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_or3" VLNV="xilinx.com:xup:xup_or3:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="DELAY" VALUE="0.3"/>
+        <PARAMETER NAME="Component_Name" VALUE="LocationFSM_xup_or3_1_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="xup_and2_4_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="xup_and2_4" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="b" SIGIS="undef" SIGNAME="xup_and4_0_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="xup_and4_0" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="c" SIGIS="undef" SIGNAME="xup_and2_5_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="xup_and2_5" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="y" SIGIS="undef" SIGNAME="xup_or3_1_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="S2" PORT="d"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+  </MODULES>
+
+</EDKSYSTEM>

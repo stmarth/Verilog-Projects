@@ -1,0 +1,70 @@
+vlib work
+vlib activehdl
+
+vlib activehdl/xil_defaultlib
+
+vmap xil_defaultlib activehdl/xil_defaultlib
+
+vlog -work xil_defaultlib  -v2k5 \
+"../../../bd/design_1/ipshared/e1c7/src/Edge_Detector.v" \
+"../../../bd/design_1/ip/design_1_Edge_Detector_0_0/sim/design_1_Edge_Detector_0_0.v" \
+"../../../bd/design_1/ip/design_1_Edge_Detector_0_1/sim/design_1_Edge_Detector_0_1.v" \
+"../../../bd/design_1/ip/design_1_Edge_Detector_0_2/sim/design_1_Edge_Detector_0_2.v" \
+"../../../bd/design_1/ip/design_1_Edge_Detector_0_3/sim/design_1_Edge_Detector_0_3.v" \
+"../../../bd/design_1/ip/design_1_SwordFSM_1_0_1/ipshared/81d5/src/xup_dff_set.v" \
+"../../../bd/design_1/ip/design_1_SwordFSM_1_0_1/src/SwordFSM_S0_0/sim/SwordFSM_S0_0.v" \
+"../../../bd/design_1/ip/design_1_SwordFSM_1_0_1/ipshared/727d/src/xup_dff_reset.v" \
+"../../../bd/design_1/ip/design_1_SwordFSM_1_0_1/src/SwordFSM_S1_0/sim/SwordFSM_S1_0.v" \
+"../../../bd/design_1/ip/design_1_SwordFSM_1_0_1/ipshared/778c/xup_and2.srcs/sources_1/new/xup_and2.v" \
+"../../../bd/design_1/ip/design_1_SwordFSM_1_0_1/src/SwordFSM_xup_and2_0_0/sim/SwordFSM_xup_and2_0_0.v" \
+"../../../bd/design_1/ip/design_1_SwordFSM_1_0_1/src/SwordFSM_xup_and2_1_0/sim/SwordFSM_xup_and2_1_0.v" \
+"../../../bd/design_1/ip/design_1_SwordFSM_1_0_1/src/SwordFSM_xup_and2_2_0/sim/SwordFSM_xup_and2_2_0.v" \
+"../../../bd/design_1/ip/design_1_SwordFSM_1_0_1/ipshared/e3e7/xup_inv.srcs/sources_1/new/xup_inv.v" \
+"../../../bd/design_1/ip/design_1_SwordFSM_1_0_1/src/SwordFSM_xup_inv_0_0/sim/SwordFSM_xup_inv_0_0.v" \
+"../../../bd/design_1/ip/design_1_SwordFSM_1_0_1/src/SwordFSM_xup_inv_1_0/sim/SwordFSM_xup_inv_1_0.v" \
+"../../../bd/design_1/ip/design_1_SwordFSM_1_0_1/ipshared/1ec9/xup_or2.srcs/sources_1/new/xup_or2.v" \
+"../../../bd/design_1/ip/design_1_SwordFSM_1_0_1/src/SwordFSM_xup_or2_0_0/sim/SwordFSM_xup_or2_0_0.v" \
+"../../../bd/design_1/ipshared/a170/sim/SwordFSM.v" \
+"../../../bd/design_1/ip/design_1_SwordFSM_1_0_1/sim/design_1_SwordFSM_1_0.v" \
+"../../../bd/design_1/ip/design_1_LocationFSM_1_0_1/src/LocationFSM_xup_dff_set_0_0/sim/LocationFSM_xup_dff_set_0_0.v" \
+"../../../bd/design_1/ip/design_1_LocationFSM_1_0_1/src/LocationFSM_xup_dff_reset_0_0/sim/LocationFSM_xup_dff_reset_0_0.v" \
+"../../../bd/design_1/ip/design_1_LocationFSM_1_0_1/src/LocationFSM_Q1_0/sim/LocationFSM_Q1_0.v" \
+"../../../bd/design_1/ip/design_1_LocationFSM_1_0_1/src/LocationFSM_Q1_1/sim/LocationFSM_Q1_1.v" \
+"../../../bd/design_1/ip/design_1_LocationFSM_1_0_1/src/LocationFSM_Q1_2/sim/LocationFSM_Q1_2.v" \
+"../../../bd/design_1/ip/design_1_LocationFSM_1_0_1/src/LocationFSM_Q1_3/sim/LocationFSM_Q1_3.v" \
+"../../../bd/design_1/ip/design_1_LocationFSM_1_0_1/src/LocationFSM_Q1_4/sim/LocationFSM_Q1_4.v" \
+"../../../bd/design_1/ip/design_1_LocationFSM_1_0_1/src/LocationFSM_xup_inv_0_0/sim/LocationFSM_xup_inv_0_0.v" \
+"../../../bd/design_1/ip/design_1_LocationFSM_1_0_1/src/LocationFSM_xup_inv_0_1/sim/LocationFSM_xup_inv_0_1.v" \
+"../../../bd/design_1/ip/design_1_LocationFSM_1_0_1/src/LocationFSM_xup_inv_0_2/sim/LocationFSM_xup_inv_0_2.v" \
+"../../../bd/design_1/ip/design_1_LocationFSM_1_0_1/src/LocationFSM_xup_inv_0_3/sim/LocationFSM_xup_inv_0_3.v" \
+"../../../bd/design_1/ip/design_1_LocationFSM_1_0_1/src/LocationFSM_xup_inv_0_4/sim/LocationFSM_xup_inv_0_4.v" \
+"../../../bd/design_1/ip/design_1_LocationFSM_1_0_1/src/LocationFSM_xup_and2_0_0/sim/LocationFSM_xup_and2_0_0.v" \
+"../../../bd/design_1/ip/design_1_LocationFSM_1_0_1/src/LocationFSM_xup_or2_0_0/sim/LocationFSM_xup_or2_0_0.v" \
+"../../../bd/design_1/ip/design_1_LocationFSM_1_0_1/src/LocationFSM_xup_and2_0_1/sim/LocationFSM_xup_and2_0_1.v" \
+"../../../bd/design_1/ip/design_1_LocationFSM_1_0_1/src/LocationFSM_xup_and2_2_0/sim/LocationFSM_xup_and2_2_0.v" \
+"../../../bd/design_1/ip/design_1_LocationFSM_1_0_1/src/LocationFSM_xup_and2_2_1/sim/LocationFSM_xup_and2_2_1.v" \
+"../../../bd/design_1/ip/design_1_LocationFSM_1_0_1/ipshared/ded9/xup_or3.srcs/sources_1/new/xup_or3.v" \
+"../../../bd/design_1/ip/design_1_LocationFSM_1_0_1/src/LocationFSM_xup_or3_0_0/sim/LocationFSM_xup_or3_0_0.v" \
+"../../../bd/design_1/ip/design_1_LocationFSM_1_0_1/ipshared/b79c/xup_and3.srcs/sources_1/new/xup_and3.v" \
+"../../../bd/design_1/ip/design_1_LocationFSM_1_0_1/src/LocationFSM_xup_and3_0_0/sim/LocationFSM_xup_and3_0_0.v" \
+"../../../bd/design_1/ip/design_1_LocationFSM_1_0_1/src/LocationFSM_xup_and2_4_0/sim/LocationFSM_xup_and2_4_0.v" \
+"../../../bd/design_1/ip/design_1_LocationFSM_1_0_1/ipshared/77ea/xup_and4.srcs/sources_1/new/xup_and4.v" \
+"../../../bd/design_1/ip/design_1_LocationFSM_1_0_1/src/LocationFSM_xup_and4_0_0/sim/LocationFSM_xup_and4_0_0.v" \
+"../../../bd/design_1/ip/design_1_LocationFSM_1_0_1/src/LocationFSM_xup_and2_5_0/sim/LocationFSM_xup_and2_5_0.v" \
+"../../../bd/design_1/ip/design_1_LocationFSM_1_0_1/src/LocationFSM_xup_or3_1_0/sim/LocationFSM_xup_or3_1_0.v" \
+"../../../bd/design_1/ip/design_1_LocationFSM_1_0_1/src/LocationFSM_xup_and2_6_0/sim/LocationFSM_xup_and2_6_0.v" \
+"../../../bd/design_1/ip/design_1_LocationFSM_1_0_1/src/LocationFSM_xup_and2_6_1/sim/LocationFSM_xup_and2_6_1.v" \
+"../../../bd/design_1/ip/design_1_LocationFSM_1_0_1/src/LocationFSM_xup_or2_1_0/sim/LocationFSM_xup_or2_1_0.v" \
+"../../../bd/design_1/ip/design_1_LocationFSM_1_0_1/src/LocationFSM_xup_and2_8_0/sim/LocationFSM_xup_and2_8_0.v" \
+"../../../bd/design_1/ip/design_1_LocationFSM_1_0_1/src/LocationFSM_xup_and2_8_1/sim/LocationFSM_xup_and2_8_1.v" \
+"../../../bd/design_1/ip/design_1_LocationFSM_1_0_1/src/LocationFSM_xup_or2_2_0/sim/LocationFSM_xup_or2_2_0.v" \
+"../../../bd/design_1/ip/design_1_LocationFSM_1_0_1/src/LocationFSM_xup_and2_9_0/sim/LocationFSM_xup_and2_9_0.v" \
+"../../../bd/design_1/ip/design_1_LocationFSM_1_0_1/src/LocationFSM_xup_or2_2_1/sim/LocationFSM_xup_or2_2_1.v" \
+"../../../bd/design_1/ipshared/ba5c/sim/LocationFSM.v" \
+"../../../bd/design_1/ip/design_1_LocationFSM_1_0_1/sim/design_1_LocationFSM_1_0.v" \
+"../../../bd/design_1/sim/design_1.v" \
+
+
+vlog -work xil_defaultlib \
+"glbl.v"
+

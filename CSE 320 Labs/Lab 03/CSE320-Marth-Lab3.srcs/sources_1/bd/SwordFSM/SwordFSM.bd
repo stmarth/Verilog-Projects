@@ -1,0 +1,177 @@
+{
+  "design": {
+    "design_info": {
+      "boundary_crc": "0xC5E5DF4A1FED6226",
+      "device": "xc7a100tcsg324-1",
+      "name": "SwordFSM",
+      "synth_flow_mode": "Hierarchical",
+      "tool_version": "2019.2",
+      "validated": "true"
+    },
+    "design_tree": {
+      "S0": "",
+      "S1": "",
+      "xup_and2_0": "",
+      "xup_and2_1": "",
+      "xup_and2_2": "",
+      "xup_inv_0": "",
+      "xup_inv_1": "",
+      "xup_or2_0": ""
+    },
+    "ports": {
+      "SW": {
+        "direction": "I"
+      },
+      "V": {
+        "direction": "O"
+      },
+      "clock": {
+        "type": "clk",
+        "direction": "I",
+        "parameters": {
+          "ASSOCIATED_RESET": {
+            "value": "reset",
+            "value_src": "default"
+          },
+          "CLK_DOMAIN": {
+            "value": "SwordFSM_clock",
+            "value_src": "default"
+          },
+          "FREQ_HZ": {
+            "value": "100000000",
+            "value_src": "default"
+          },
+          "INSERT_VIP": {
+            "value": "0",
+            "value_src": "default"
+          },
+          "PHASE": {
+            "value": "0.000",
+            "value_src": "default"
+          }
+        }
+      },
+      "reset": {
+        "type": "rst",
+        "direction": "I",
+        "parameters": {
+          "INSERT_VIP": {
+            "value": "0",
+            "value_src": "default"
+          },
+          "POLARITY": {
+            "value": "ACTIVE_HIGH"
+          }
+        }
+      }
+    },
+    "components": {
+      "S0": {
+        "vlnv": "xilinx.com:user:xup_dff_set:1.0",
+        "xci_name": "SwordFSM_S0_0"
+      },
+      "S1": {
+        "vlnv": "xilinx.com:user:xup_dff_reset:1.0",
+        "xci_name": "SwordFSM_S1_0"
+      },
+      "xup_and2_0": {
+        "vlnv": "xilinx.com:xup:xup_and2:1.0",
+        "xci_name": "SwordFSM_xup_and2_0_0"
+      },
+      "xup_and2_1": {
+        "vlnv": "xilinx.com:xup:xup_and2:1.0",
+        "xci_name": "SwordFSM_xup_and2_1_0"
+      },
+      "xup_and2_2": {
+        "vlnv": "xilinx.com:xup:xup_and2:1.0",
+        "xci_name": "SwordFSM_xup_and2_2_0"
+      },
+      "xup_inv_0": {
+        "vlnv": "xilinx.com:xup:xup_inv:1.0",
+        "xci_name": "SwordFSM_xup_inv_0_0"
+      },
+      "xup_inv_1": {
+        "vlnv": "xilinx.com:xup:xup_inv:1.0",
+        "xci_name": "SwordFSM_xup_inv_1_0"
+      },
+      "xup_or2_0": {
+        "vlnv": "xilinx.com:xup:xup_or2:1.0",
+        "xci_name": "SwordFSM_xup_or2_0_0"
+      }
+    },
+    "nets": {
+      "Net": {
+        "ports": [
+          "S0/q",
+          "xup_and2_0/a",
+          "xup_and2_1/a",
+          "xup_inv_1/a"
+        ]
+      },
+      "S1_q": {
+        "ports": [
+          "S1/q",
+          "xup_and2_2/a",
+          "xup_or2_0/b"
+        ]
+      },
+      "SW_1": {
+        "ports": [
+          "SW",
+          "xup_and2_1/b",
+          "xup_inv_0/a"
+        ]
+      },
+      "clk_0_1": {
+        "ports": [
+          "clock",
+          "S0/clk",
+          "S1/clk"
+        ]
+      },
+      "reset_0_1": {
+        "ports": [
+          "reset",
+          "S0/reset",
+          "S1/reset"
+        ]
+      },
+      "xup_and2_0_y": {
+        "ports": [
+          "xup_and2_0/y",
+          "S0/d"
+        ]
+      },
+      "xup_and2_1_y": {
+        "ports": [
+          "xup_and2_1/y",
+          "xup_or2_0/a"
+        ]
+      },
+      "xup_and2_2_y": {
+        "ports": [
+          "xup_and2_2/y",
+          "V"
+        ]
+      },
+      "xup_inv_0_y": {
+        "ports": [
+          "xup_inv_0/y",
+          "xup_and2_0/b"
+        ]
+      },
+      "xup_inv_1_y": {
+        "ports": [
+          "xup_inv_1/y",
+          "xup_and2_2/b"
+        ]
+      },
+      "xup_or2_0_y": {
+        "ports": [
+          "xup_or2_0/y",
+          "S1/d"
+        ]
+      }
+    }
+  }
+}

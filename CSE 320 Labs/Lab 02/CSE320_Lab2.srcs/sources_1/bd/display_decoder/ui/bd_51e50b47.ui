@@ -1,0 +1,55 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"0.744828",
+   "Default View_TopLeft":"-973,81",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.0.21  2019-05-29 bk=1.5064 VDI=41 GEI=36 GUI=JA:9.0 non-TLS-threadsafe
+#  -string -flagsOSRD
+preplace port A0 -pg 1 -lvl 3 -x 510 -y 580 -defaultsOSRD
+preplace port A3 -pg 1 -lvl 3 -x 510 -y 640 -defaultsOSRD
+preplace port A2 -pg 1 -lvl 3 -x 510 -y 620 -defaultsOSRD
+preplace port A5 -pg 1 -lvl 3 -x 510 -y 680 -defaultsOSRD
+preplace port A4 -pg 1 -lvl 3 -x 510 -y 660 -defaultsOSRD
+preplace port A7 -pg 1 -lvl 3 -x 510 -y 720 -defaultsOSRD
+preplace port A6 -pg 1 -lvl 3 -x 510 -y 700 -defaultsOSRD
+preplace port A1 -pg 1 -lvl 3 -x 510 -y 600 -defaultsOSRD
+preplace port clock -pg 1 -lvl 0 -x 0 -y 100 -defaultsOSRD
+preplace port D0 -pg 1 -lvl 0 -x 0 -y 160 -defaultsOSRD
+preplace port D1 -pg 1 -lvl 0 -x 0 -y 180 -defaultsOSRD
+preplace port D2 -pg 1 -lvl 0 -x 0 -y 200 -defaultsOSRD
+preplace port D3 -pg 1 -lvl 0 -x 0 -y 220 -defaultsOSRD
+preplace portBus cathode -pg 1 -lvl 3 -x 510 -y 740 -defaultsOSRD
+preplace inst segment_a_0 -pg 1 -lvl 1 -x 150 -y 190 -defaultsOSRD
+preplace inst segment_b_0 -pg 1 -lvl 1 -x 150 -y 350 -defaultsOSRD
+preplace inst segment_c_0 -pg 1 -lvl 1 -x 150 -y 510 -defaultsOSRD
+preplace inst segment_d_0 -pg 1 -lvl 1 -x 150 -y 670 -defaultsOSRD
+preplace inst segment_e_0 -pg 1 -lvl 1 -x 150 -y 830 -defaultsOSRD
+preplace inst segment_f_0 -pg 1 -lvl 1 -x 150 -y 990 -defaultsOSRD
+preplace inst segment_g_0 -pg 1 -lvl 1 -x 150 -y 1150 -defaultsOSRD
+preplace inst Segment_LED_Interface_0 -pg 1 -lvl 2 -x 380 -y 660 -defaultsOSRD
+preplace netloc Segment_LED_Interface_0_A0 1 2 1 NJ 580
+preplace netloc Segment_LED_Interface_0_A3 1 2 1 NJ 640
+preplace netloc Segment_LED_Interface_0_A2 1 2 1 NJ 620
+preplace netloc Segment_LED_Interface_0_A5 1 2 1 NJ 680
+preplace netloc Segment_LED_Interface_0_A4 1 2 1 NJ 660
+preplace netloc Segment_LED_Interface_0_A7 1 2 1 NJ 720
+preplace netloc Segment_LED_Interface_0_A6 1 2 1 NJ 700
+preplace netloc Segment_LED_Interface_0_A1 1 2 1 NJ 600
+preplace netloc clock_0_1 1 0 2 N 100 270
+preplace netloc D1_0_1 1 0 1 40 180n
+preplace netloc D0_0_1 1 0 1 50 160n
+preplace netloc D2_0_1 1 0 1 30 200n
+preplace netloc D3_0_1 1 0 1 20 220n
+preplace netloc segment_a_0_S 1 1 1 260 190n
+preplace netloc segment_b_0_S 1 1 1 250 350n
+preplace netloc segment_c_0_S 1 1 1 240 510n
+preplace netloc segment_d_0_S 1 1 1 N 670
+preplace netloc segment_e_0_S 1 1 1 240 690n
+preplace netloc segment_f_0_S 1 1 1 250 710n
+preplace netloc segment_g_0_S 1 1 1 270 730n
+preplace netloc Segment_LED_Interface_0_cathode 1 2 1 NJ 740
+levelinfo -pg 1 0 150 380 510
+pagesize -pg 1 -db -bbox -sgen -90 0 640 1240
+"
+}
+0

@@ -1,0 +1,23 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Sun Feb  9 12:32:51 2020
+# Process ID: 10868
+# Current directory: C:/Users/stefa/iCloudDrive/ASU/Spring 2020/CSE_320/Labs_New/CSE320_Marth_Lab1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent18712 C:\Users\stefa\iCloudDrive\ASU\Spring 2020\CSE_320\Labs_New\CSE320_Marth_Lab1\CSE320_Marth_Lab1.xpr
+# Log file: C:/Users/stefa/iCloudDrive/ASU/Spring 2020/CSE_320/Labs_New/CSE320_Marth_Lab1/vivado.log
+# Journal file: C:/Users/stefa/iCloudDrive/ASU/Spring 2020/CSE_320/Labs_New/CSE320_Marth_Lab1\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/stefa/iCloudDrive/ASU/Spring 2020/CSE_320/Labs_New/CSE320_Marth_Lab1/CSE320_Marth_Lab1.xpr}
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/stefa/iCloudDrive/ASU/Spring 2020/CSE_320/Labs_New/CSE320_Marth_Lab1/XUP_LIB'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2019.2/data/ip'.
+open_project: Time (s): cpu = 00:00:14 ; elapsed = 00:00:07 . Memory (MB): peak = 942.879 ; gain = 293.969
+update_compile_order -fileset sources_1
+close_project
+exit
+INFO: [Common 17-206] Exiting Vivado at Sun Feb  9 12:33:31 2020...
